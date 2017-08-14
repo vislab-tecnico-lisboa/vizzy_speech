@@ -1,0 +1,26 @@
+# Define the goal
+
+string language
+string voice
+
+uint8 XSLOW = 0
+uint8 SLOW = 1
+uint8 MEDIUM = 2
+uint8 FAST = 3
+uint8 VERYFAST = 4
+
+uint8 speed
+
+string message
+ 
+---
+# Define the result
+bool success
+string errorMsg
+
+---
+# Define a feedback message
+uint8 FREE=0
+uint8 DOWNLOADING=1
+uint8 SPEAKING=2
+uint8 status

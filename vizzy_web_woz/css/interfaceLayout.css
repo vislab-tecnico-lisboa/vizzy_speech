@@ -1,0 +1,60 @@
+body {
+  padding: 30px;
+  background: #f2f2f4;
+}
+
+.full_panel{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+.btn_social_joint{
+    display: none;
+}
+
+.btn_id_joint{
+    display: none;
+}
+
+.btn_persuade_joint{
+    display: none;
+}
+
+.btn_userinstr_joint{
+    display: none;
+}
+
+.btn_motivation_joint{
+    display: none;
+}
+
+
+.btn_game_doubts_joint{
+    display: none;
+}
+
+.btn_game_ask_joint{
+    display: none;
+}
+
+.btn_afterpersuade_joint{
+    display: none;
+}
+
+.btn_yes_joint{
+    display: none;
+}
+
+.btn_no_joint{
+    display: none;
+}
+
+.btn_gameinfo_joint{
+    display: none;
+}
+
+.chilled{
+    filter:url(#f1);
+}
+

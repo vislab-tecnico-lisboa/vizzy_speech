@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="541.86664mm"
+   height="304.79999mm"
+   viewBox="0 0 1919.9999 1079.9999"
+   id="btn_yesno_full"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="btn_yesno.svg">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     id="namedview12"
+     showgrid="false"
+     inkscape:zoom="0.75524571"
+     inkscape:cx="952.18838"
+     inkscape:cy="630.49126"
+     inkscape:window-x="0"
+     inkscape:window-y="34"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="btn_yesno_full"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     showguides="false" />
+  <metadata
+     id="metadata16">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs14">
+    <inkscape:path-effect
+       fuse_tolerance="0"
+       vertical_pattern="false"
+       prop_units="false"
+       tang_offset="0"
+       normal_offset="0"
+       spacing="0"
+       scale_y_rel="false"
+       prop_scale="1"
+       copytype="single_stretched"
+       pattern="m 263.49041,-31.777738 1,0"
+       is_visible="true"
+       id="path-effect3393"
+       effect="skeletal" />
+  </defs>
+  <circle
+     style="fill:#fafdfe;fill-opacity:1;fill-rule:evenodd;stroke:#e4e9ec;stroke-width:26.1169796;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="btn_yesno"
+     cx="960"
+     cy="488.93433"
+     r="162.02782" />
+  <g
+     transform="matrix(0.31171043,0,0,0.31171043,-104.77799,-108.75763)"
+     id="btn_yes_icon">
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#93c954;stroke:#d0e39e;stroke-width:1.65428364;stroke-miterlimit:10"
+       stroke-miterlimit="10"
+       d="m 3921.5538,1912.921 c 0,-279.2762 -226.3788,-505.6484 -505.6351,-505.6484 -279.2464,0 -505.6318,226.3722 -505.6318,505.6484 0,0.01 0,0.013 0,0.02 l 1011.2669,0 c 0,-0.01 0,-0.013 0,-0.02 z"
+       id="path7126" />
+    <text
+       y="1732.1743"
+       x="3275.2358"
+       style="font-size:179.8692627px;font-family:GothamRounded-Bold;fill:#ffffff"
+       font-size="54.3647"
+       id="text7132">Yes</text>
+  </g>
+  <g
+     transform="matrix(0.31171043,0,0,0.31171043,-104.77799,-108.75763)"
+     id="btn_no_icon">
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#f16566;stroke:#db242d;stroke-width:1.65428364;stroke-miterlimit:10"
+       stroke-miterlimit="10"
+       d="m 2910.2869,1912.9408 c 0.01,279.2464 226.392,505.612 505.6318,505.612 279.2497,0 505.6218,-226.3656 505.6351,-505.612 l -1011.2669,0 z"
+       id="path7128" />
+    <text
+       y="2200.0715"
+       x="3289.6833"
+       style="font-size:179.8692627px;font-family:GothamRounded-Bold;fill:#ffffff"
+       font-size="54.3647"
+       id="text7136">No</text>
+  </g>
+  <g
+     id="btn_yes_joint_1">
+    <path
+       style="fill:#fafdfe;stroke:#d4e2f4;stroke-width:5.11835384;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:connector-curvature="0"
+       d="m 670.60573,327.38934 c 22.66616,-0.56226 41.49615,17.36309 42.05624,40.02383 0.56119,22.66834 -17.35876,41.49398 -40.02927,42.05625 -22.664,0.55901 -41.48964,-17.362 -42.04865,-40.02819 -0.56444,-22.66399 17.35552,-41.48962 40.02168,-42.05189 z"
+       id="path5171-3" />
+    <text
+       y="385.54309"
+       x="484.2258"
+       style="font-size:62px;font-family:GothamRounded-Medium;fill:#a7a9ac"
+       font-size="62"
+       id="text353">Sim</text>
+  </g>
+  <g
+     id="btn_yes_joint_2">
+    <path
+       id="path5464"
+       d="m 740.60573,225.38934 c 22.66616,-0.56226 41.49615,17.36309 42.05624,40.02383 0.56119,22.66834 -17.35876,41.49398 -40.02927,42.05625 -22.664,0.55901 -41.48964,-17.362 -42.04865,-40.02819 -0.56444,-22.66399 17.35552,-41.48962 40.02168,-42.05189 z"
+       inkscape:connector-curvature="0"
+       style="fill:#fafdfe;stroke:#d4e2f4;stroke-width:5.11835384;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <text
+       id="text5502"
+       font-size="62"
+       style="font-size:62px;font-family:GothamRounded-Medium;fill:#a7a9ac"
+       x="378.65851"
+       y="281.54309">Tudo bem</text>
+  </g>
+  <g
+     id="btn_yes_joint_3">
+    <path
+       style="fill:#fafdfe;stroke:#d4e2f4;stroke-width:5.11835384;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:connector-curvature="0"
+       d="m 840.60573,159.38934 c 22.66616,-0.56226 41.49615,17.36309 42.05624,40.02383 0.56119,22.66834 -17.35876,41.49398 -40.02927,42.05625 -22.664,0.55901 -41.48964,-17.362 -42.04865,-40.02819 -0.56444,-22.66399 17.35552,-41.48962 40.02168,-42.05189 z"
+       id="path5466" />
+    <text
+       y="171.58275"
+       x="369.5112"
+       style="font-size:62px;font-family:GothamRounded-Medium;fill:#a7a9ac"
+       font-size="62"
+       id="text5510">Acho que sim</text>
+  </g>
+  <g
+     id="btn_yes_joint_5">
+    <path
+       style="fill:#fafdfe;stroke:#d4e2f4;stroke-width:5.11835384;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:connector-curvature="0"
+       d="m 1078.6057,159.38934 c 22.6662,-0.56226 41.4962,17.36309 42.0563,40.02383 0.5612,22.66834 -17.3588,41.49398 -40.0293,42.05625 -22.664,0.55901 -41.4896,-17.362 -42.0486,-40.02819 -0.5645,-22.66399 17.3555,-41.48962 40.0216,-42.05189 z"
+       id="path5470" />
+    <text
+       id="text5512"
+       font-size="62"
+       style="font-size:62px;font-family:GothamRounded-Medium;fill:#a7a9ac"
+       x="1150.6584"
+       y="169.54309">Ok, então</text>
+  </g>
+  <g
+     id="btn_yes_joint_6"
+     inkscape:label="#btn_yes_joint_6">
+    <path
+       id="path5472"
+       d="m 1180.6057,227.38934 c 22.6662,-0.56226 41.4962,17.36309 42.0563,40.02383 0.5612,22.66834 -17.3588,41.49398 -40.0293,42.05625 -22.664,0.55901 -41.4896,-17.362 -42.0486,-40.02819 -0.5645,-22.66399 17.3555,-41.48962 40.0216,-42.05189 z"
+       inkscape:connector-curvature="0"
+       style="fill:#fafdfe;stroke:#d4e2f4;stroke-width:5.11835384;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <text
+       y="285.54309"
+       x="1250.6584"
+       style="font-size:62px;font-family:GothamRounded-Medium;fill:#a7a9ac"
+       font-size="62"
+       id="text5514">Talvez</text>
+  </g>
+  <g
+     id="btn_yes_joint_7"
+     inkscape:label="#btn_yes_joint_7">
+    <path
+       style="fill:#fafdfe;stroke:#d4e2f4;stroke-width:5.11835384;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:connector-curvature="0"
+       d="m 1246.6057,327.38934 c 22.6662,-0.56226 41.4962,17.36309 42.0563,40.02383 0.5612,22.66834 -17.3588,41.49398 -40.0293,42.05625 -22.664,0.55901 -41.4896,-17.362 -42.0486,-40.02819 -0.5645,-22.66399 17.3555,-41.48962 40.0216,-42.05189 z"
+       id="path5474" />
+    <text
+       id="text5516"
+       font-size="62"
+       style="font-size:62px;font-family:GothamRounded-Medium;fill:#a7a9ac"
+       x="1312.6584"
+       y="387.54309">Vou pensar nisso</text>
+  </g>
+  <g
+     id="btn_yes_joint_4">
+    <path
+       id="path5468"
+       d="m 958.60573,135.38934 c 22.66616,-0.56226 41.49617,17.36309 42.05627,40.02383 0.5612,22.66834 -17.35879,41.49398 -40.0293,42.05625 -22.664,0.55901 -41.48964,-17.362 -42.04865,-40.02819 -0.56444,-22.66399 17.35552,-41.48962 40.02168,-42.05189 z"
+       inkscape:connector-curvature="0"
+       style="fill:#fafdfe;stroke:#d4e2f4;stroke-width:5.11835384;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <text
+       y="109.94395"
+       x="779.61707"
+       style="font-size:62px;font-family:GothamRounded-Medium;fill:#a7a9ac"
+       font-size="62"
+       id="text5518">Confirmado</text>
+  </g>
+  <g
+     id="btn_no_joint_1">
+    <path
+       id="path5488"
+       d="m 670.6057,563.38934 c 22.6662,-0.56226 41.4962,17.36309 42.0563,40.02383 0.5612,22.66834 -17.3588,41.49398 -40.0293,42.05625 -22.664,0.55901 -41.4896,-17.362 -42.0486,-40.02819 -0.5645,-22.66399 17.3555,-41.48962 40.0216,-42.05189 z"
+       inkscape:connector-curvature="0"
+       style="fill:#fafdfe;stroke:#d4e2f4;stroke-width:5.11835384;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <text
+       id="text5562"
+       font-size="62"
+       style="font-size:62px;font-family:GothamRounded-Medium;fill:#a7a9ac"
+       x="480.87393"
+       y="622.55206">Não</text>
+  </g>
+  <g
+     id="btn_no_joint_2">
+    <path
+       style="fill:#fafdfe;stroke:#d4e2f4;stroke-width:5.11835384;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:connector-curvature="0"
+       d="m 736.6057,665.38934 c 22.6662,-0.56226 41.4962,17.36309 42.0563,40.02383 0.5612,22.66834 -17.3588,41.49398 -40.0293,42.05625 -22.664,0.55901 -41.4896,-17.362 -42.0486,-40.02819 -0.5645,-22.66399 17.3555,-41.48962 40.0216,-42.05189 z"
+       id="path5486" />
+    <text
+       y="728.47784"
+       x="443.79993"
+       style="font-size:62px;font-family:GothamRounded-Medium;fill:#a7a9ac"
+       font-size="62"
+       id="text5564">Não sei</text>
+  </g>
+  <g
+     id="btn_no_joint_3">
+    <path
+       id="path5484"
+       d="m 836.6057,733.38934 c 22.6662,-0.56226 41.4962,17.36309 42.0563,40.02383 0.5612,22.66834 -17.3588,41.49398 -40.0293,42.05625 -22.664,0.55901 -41.4896,-17.362 -42.0486,-40.02819 -0.5645,-22.66399 17.3555,-41.48962 40.0216,-42.05189 z"
+       inkscape:connector-curvature="0"
+       style="fill:#fafdfe;stroke:#d4e2f4;stroke-width:5.11835384;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <text
+       id="text5566"
+       font-size="62"
+       style="font-size:62px;font-family:GothamRounded-Medium;fill:#a7a9ac"
+       x="400.40167"
+       y="827.78326">Não percebi</text>
+  </g>
+  <g
+     id="btn_no_joint_4"
+     onclick="al">
+    <path
+       style="fill:#fafdfe;stroke:#d4e2f4;stroke-width:5.11835384;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:connector-curvature="0"
+       d="m 954.6057,759.38934 c 22.6662,-0.56226 41.4962,17.36309 42.0563,40.02383 0.5612,22.66834 -17.3588,41.49398 -40.0293,42.05625 -22.664,0.55901 -41.4896,-17.362 -42.0486,-40.02819 -0.5645,-22.66399 17.3555,-41.48962 40.0216,-42.05189 z"
+       id="path5482" />
+    <text
+       y="917.82019"
+       x="750.76263"
+       style="font-size:62px;font-family:GothamRounded-Medium;fill:#a7a9ac"
+       font-size="62"
+       id="text5568">Nem por isso</text>
+  </g>
+  <g
+     id="btn_no_joint_5">
+    <path
+       id="path5480"
+       d="m 1072.6057,737.38934 c 22.6662,-0.56226 41.4962,17.36309 42.0563,40.02383 0.5612,22.66834 -17.3588,41.49398 -40.0293,42.05625 -22.664,0.55901 -41.4896,-17.362 -42.0486,-40.02819 -0.5645,-22.66399 17.3555,-41.48962 40.0216,-42.05189 z"
+       inkscape:connector-curvature="0"
+       style="fill:#fafdfe;stroke:#d4e2f4;stroke-width:5.11835384;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <text
+       id="text5582"
+       font-size="62"
+       style="font-size:62px;font-family:GothamRounded-Medium;fill:#a7a9ac"
+       x="1150.1788"
+       y="831.75543">Não me parece</text>
+  </g>
+  <g
+     id="btn_no_joint_6">
+    <path
+       style="fill:#fafdfe;stroke:#d4e2f4;stroke-width:5.11835384;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:connector-curvature="0"
+       d="m 1174.6057,671.38934 c 22.6662,-0.56226 41.4962,17.36309 42.0563,40.02383 0.5612,22.66834 -17.3588,41.49398 -40.0293,42.05625 -22.664,0.55901 -41.4896,-17.362 -42.0486,-40.02819 -0.5645,-22.66399 17.3555,-41.48962 40.0216,-42.05189 z"
+       id="path5478" />
+    <text
+       y="725.82965"
+       x="1256.3269"
+       style="font-size:62px;font-family:GothamRounded-Medium;fill:#a7a9ac"
+       font-size="62"
+       id="text5598">Nem pensar</text>
+  </g>
+  <g
+     id="g5650">
+    <path
+       id="path5476"
+       d="m 1244.6057,571.38934 c 22.6662,-0.56226 41.4962,17.36309 42.0563,40.02383 0.5612,22.66834 -17.3588,41.49398 -40.0293,42.05625 -22.664,0.55901 -41.4896,-17.362 -42.0486,-40.02819 -0.5645,-22.66399 17.3555,-41.48962 40.0216,-42.05189 z"
+       inkscape:connector-curvature="0"
+       style="fill:#fafdfe;stroke:#d4e2f4;stroke-width:5.11835384;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <text
+       y="619.25574"
+       x="1302.0659"
+       style="font-size:62px;font-family:GothamRounded-Medium;fill:#a7a9ac"
+       font-size="62"
+       id="text5600">Isso queria você</text>
+  </g>
+</svg>

@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <title>Vizzy of Oz</title>
+  <link rel="stylesheet" href="css/css1.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script type="text/javascript" src="roslibjs/eventemitter2.js"></script>
+	<script type="text/javascript" src="roslibjs/roslib.js"></script>
+	<!-- <script type="text/javascript" charset="utf-8" src="js/lang_pt.js"></script> -->
+
+	<script type="text/javascript" type="text/javascript">
+
+	  var greeting = 'Olá';
+	  var confirm = 'Sim';
+	  var deny = 'Não';
+	  var goodbye = 'Adeus. E obrigado pela atenção';
+	  var apologize = 'Desculpe'
+	  var thank = 'Obrigado.'
+	  var excuse = 'Com licença.'
+	  var youWelcome = 'De nada.'
+
+
+
+	  var ros = new ROSLIB.Ros({
+	    url : 'ws://10.0.28.117:9090'
+	  });
+
+	  var speechClient = new ROSLIB.ActionClient({
+	    ros : ros,
+	    serverName : '/woz_dialog/speaker',
+	    actionName : 'woz_dialog_msgs/SpeechAction'
+	  });
+
+	  var goal = new ROSLIB.Goal({
+	    actionClient : speechClient,
+	    goalMessage : {
+	      language : 'por-PRT',
+	      voice: 'Joana',
+	      message: 'mensagem vazia'
+	    }
+	  });
+
+	  goal.on('feedback', function(feedback) {
+	    console.log('Feedback: ' + feedback.sequence);
+	  });
+
+	  goal.on('result', function(result) {
+	    console.log('Final Result: ' + result.success);
+	  });
+
+	  ros.on('connection', function() {
+	    console.log('Connected to websocket server.');
+	  });
+
+	  ros.on('error', function(error) {
+	    console.log('Error connecting to websocket server: ', error);
+	  });
+
+	  ros.on('close', function() {
+	    console.log('Connection to websocket server closed.');
+	  });
+	
+
+	  function speak(utterance){
+
+
+	  goal.goalMessage.goal.message=utterance;
+
+
+	  goal.send();
+
+	  }
+
+
+
+	  
+	</script>
+</head>
+<body>
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   style="transform-origin: 50% 50% 0px; transform: translate3d(0px, 0px, 0px); touch-action: none; -moz-user-select: none;"
+   viewBox="-2 -2 504 504"
+   height="504px"
+   width="504px"
+   y="0px"
+   x="0px"
+   id="general_purpose"
+   version="1.1">
+  <metadata
+     id="metadata31">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs29" />
+  <style
+     id="style3">
+                        #menu {
+                            display: block;
+                            margin: 0 auto;
+                            /*overflow: visible;*/ /* uncomment this if you are using bouncing animations*/
+                        }
+
+                        a {
+                            cursor: pointer; /* SVG &lt;a&gt; elements don't get this by default, so you need to explicitly set it */
+                            outline: none;
+                        }
+
+                        /* You can change these default styles any way you want */
+
+                        .item .sector {
+                            transition: all .1s linear;
+                            fill: #fff;
+                            stroke: #111;
+                        }
+
+
+                        .item:hover .sector, .item:focus .sector {
+                            fill: #eee;
+                        }
+
+                        .menu-trigger {
+                            fill: #EA2A55;
+                            pointer-events: auto; /* KEEP THIS to make sure it stays clickable even when SVG's pointer events is disabled */
+                        }
+
+                        .menu-trigger:hover, .menu-trigger:focus {
+                            cursor: pointer;
+                        }
+                        symbol {
+                            overflow: visible; /* KEEP THIS so that text will not get cut off it it is wider than the icon width */
+                        }
+                    </style>
+
+
+
+                   <g id="symbolsContainer">    <symbol class="icon icon-" id="icon-1" viewBox="0 0 40 40"><!--Replace the contents of this symbol with the content of your icon--></symbol>
+
+    <symbol class="icon icon-" id="icon-2" viewBox="0 0 40 40"><!--Replace the contents of this symbol with the content of your icon--></symbol>
+
+    <symbol class="icon icon-" id="icon-3" viewBox="0 0 40 40"><!--Replace the contents of this symbol with the content of your icon--></symbol>
+
+    <symbol class="icon icon-" id="icon-4" viewBox="0 0 40 40"><!--Replace the contents of this symbol with the content of your icon--></symbol>
+
+    <symbol class="icon icon-" id="icon-5" viewBox="0 0 40 40"><!--Replace the contents of this symbol with the content of your icon--></symbol>
+
+    <symbol class="icon icon-" id="icon-6" viewBox="0 0 40 40"><!--Replace the contents of this symbol with the content of your icon--></symbol>
+
+    <symbol class="icon icon-" id="icon-7" viewBox="0 0 40 40"><!--Replace the contents of this symbol with the content of your icon--></symbol>
+
+</g>
+
+
+<!-- Botoes expansiveis -->
+
+<g id="itemsContainer"> 
+
+<a class="item" id="item-1" role="link" tabindex="0" xlink:href=" " xlink:title=" " transform="matrix(1,0,0,1,0,0)" data-svg-origin="250 250">
+  <path
+     stroke-miterlimit="10"
+     d="m 108.921,456.462 c 12.277,8.586 29.331,4.131 35.833,-9.361 11.068,-22.971 22.141,-45.945 33.211,-68.918 4.843,-10.05 2.209,-22.107 -6.382,-29.23 -13.821,-11.455 -24.145,-24.39 -32.243,-40.405 -5.034,-9.955 -16.212,-15.204 -27.1,-12.722 -24.872,5.674 -49.748,11.349 -74.623,17.021 -14.611,3.332 -22.751,18.955 -17.106,32.828 18.178,44.666 48.879,83.136 88.41,110.787 z"
+     id="path7"
+     style="fill:none;stroke:#4c4c4d;stroke-miterlimit:10" />
+<use xlink:href="#icon-1" width="40" height="40"></use></a>
+
+<a class="item" id="item-2" role="link" tabindex="0" xlink:href=" " data-svg-origin="250 250">
+  <path
+     stroke-miterlimit="10"
+     d="m 467.519,312.846 c 14.609,3.332 22.75,18.955 17.105,32.828 -18.18,44.667 -48.878,83.137 -88.411,110.788 -12.275,8.586 -29.332,4.131 -35.832,-9.361 -11.068,-22.971 -22.142,-45.945 -33.21,-68.918 -4.845,-10.05 -2.21,-22.107 6.38,-29.23 13.823,-11.455 24.146,-24.39 32.244,-40.405 5.037,-9.955 16.214,-15.204 27.099,-12.722 24.876,5.673 49.749,11.348 74.625,17.02 z"
+     id="path9"
+     style="fill:none;stroke:#4c4c4d;stroke-miterlimit:10" />
+<use xlink:href="#icon-2" width="40" height="40"></use></a>
+
+
+
+<a class="item" id="item-3" role="link" tabindex="0" xlink:href=" " data-svg-origin="250 250">
+  <path
+     stroke-miterlimit="10"
+     d="m 2.543,267.008 c 0.938,14.947 15.055,25.494 29.665,22.162 24.875,-5.676 49.751,-11.348 74.626,-17.023 10.884,-2.481 18.675,-12.058 18.888,-23.212 0.346,-17.936 4.03,-34.071 11.509,-50.382 4.65,-10.143 1.788,-22.147 -6.942,-29.105 C 110.342,153.552 90.393,137.654 70.445,121.757 58.729,112.42 41.43,115.802 34.098,128.861 10.485,170.912 -0.471,218.883 2.543,267.008 Z"
+     id="path11"
+     style="fill:none;stroke:#4c4c4d;stroke-miterlimit:10" />
+<use xlink:href="#icon-3" width="40" height="40"></use></a>
+
+
+
+<a class="item" id="item-4" role="link" tabindex="0" xlink:href=" " data-svg-origin="250 250">
+  <path
+     stroke-miterlimit="10"
+     d="m 84.441,65.775 c -11.11,10.05 -10.561,27.657 1.156,36.995 19.951,15.896 39.898,31.792 59.846,47.688 8.729,6.958 21.076,7.077 29.939,0.288 14.249,-10.915 29.167,-18.097 46.592,-22.422 10.837,-2.69 18.442,-12.411 18.442,-23.569 0,-25.497 0,-50.995 0,-76.491 0,-14.975 -13.43,-26.383 -28.219,-23.97 -47.623,7.77 -91.985,29.119 -127.756,61.481 z"
+     id="path13"
+     style="fill:none;stroke:#4c4c4d;stroke-miterlimit:10" />
+<use xlink:href="#icon-4" width="40" height="40"></use></a>
+
+
+
+<a class="item" id="item-5" role="link" tabindex="0" data-svg-origin="250 250">
+  <path
+     stroke-miterlimit="10"
+     d="m 434.689,121.756 c 11.715,-9.337 29.015,-5.955 36.347,7.104 23.612,42.052 34.57,90.023 31.556,138.148 -0.938,14.947 -15.056,25.494 -29.666,22.162 -24.875,-5.676 -49.751,-11.348 -74.628,-17.023 -10.88,-2.481 -18.672,-12.058 -18.886,-23.212 -0.345,-17.936 -4.03,-34.071 -11.51,-50.382 -4.649,-10.143 -1.787,-22.147 6.941,-29.105 19.951,-15.897 39.897,-31.794 59.846,-47.692 z"
+     id="path15"
+     style="fill:none;stroke:#4c4c4d;stroke-miterlimit:10" />
+<use xlink:href="#icon-5" width="40" height="40"></use></a>
+
+
+
+<a class="item" id="item-6" role="link" tabindex="0" xlink:href=" " data-svg-origin="250 250">
+  <path
+     stroke-miterlimit="10"
+     d="m 292.938,4.293 c -14.789,-2.413 -28.221,8.996 -28.221,23.97 0,25.496 0,50.995 0,76.491 0,11.159 7.607,20.879 18.445,23.569 17.422,4.326 32.343,11.507 46.59,22.422 8.861,6.79 21.213,6.671 29.94,-0.288 19.946,-15.896 39.895,-31.792 59.844,-47.688 11.715,-9.338 12.267,-26.945 1.158,-36.995 C 384.922,33.413 340.56,12.064 292.938,4.293 Z"
+     id="path17"
+     style="fill:none;stroke:#4c4c4d;stroke-miterlimit:10" />
+<use xlink:href="#icon-6" width="40" height="40"></use></a>
+
+
+
+<a class="item" id="item-7" role="link" tabindex="0" xlink:href=" " data-svg-origin="250 250">
+  <path
+     stroke-miterlimit="10"
+     d="m 323.466,491.471 c 14.373,-4.24 21.521,-20.339 15.021,-33.832 -11.075,-22.974 -22.143,-45.946 -33.213,-68.917 -4.847,-10.052 -15.919,-15.513 -26.852,-13.241 -17.577,3.659 -34.134,3.659 -51.711,0 -10.931,-2.271 -22.004,3.189 -26.852,13.241 -11.07,22.971 -22.14,45.943 -33.211,68.917 -6.501,13.493 0.646,29.592 15.021,33.832 46.281,13.645 95.515,13.645 141.797,0 z"
+     id="path19"
+     style="fill:none;stroke:#4c4c4d;stroke-miterlimit:10" />
+<use xlink:href="#icon-7" width="40" height="40"></use></a>
+</g>
+
+
+<!-- Botao do meio -->
+
+                    <g id="trigger" class="trigger menu-trigger" role="button">
+  <path
+     d="m 221.764,233.613 c 0.047,-1.933 0.115,-3.285 0.106,-4.636 -0.087,-13.525 -0.188,-27.053 -0.281,-40.578 -0.002,-0.529 -0.007,-1.056 0.013,-1.583 0.148,-3.602 2.219,-5.837 5.366,-5.805 3.145,0.031 5.46,2.288 5.505,5.71 0.143,10.039 0.171,20.079 0.241,30.118 0.125,17.857 0.244,35.714 0.371,53.573 0.004,0.839 0.046,1.676 0.053,1.939 5.977,1.971 11.817,3.483 17.314,5.811 6.52,2.761 11.251,7.808 14.684,13.977 1.661,2.988 0.921,5.856 -1.682,7.488 -2.436,1.529 -5.901,0.868 -7.514,-1.866 -5.807,-9.831 -15.041,-13.388 -25.703,-13.594 -6.32,-0.118 -8.301,-2.878 -8.108,-8.526 0.206,-6.017 0.114,-12.051 -0.1,-18.069 -0.347,-9.78 -7.169,-18.218 -16.205,-20.08 0.004,2.324 0.002,4.599 0.018,6.877 0.076,13.42 0.054,26.842 0.266,40.259 0.342,21.63 13.456,39.288 34.006,46.059 22.39,7.374 48.229,-3.945 58.191,-25.331 3.339,-7.167 4.87,-14.607 4.814,-22.452 -0.176,-26.1 -0.35,-52.198 -0.462,-78.297 -0.007,-1.533 0.112,-3.27 0.815,-4.564 1.24,-2.289 3.509,-3.001 6.021,-2.269 2.831,0.821 3.979,2.943 3.997,5.779 0.073,10.777 0.142,21.553 0.22,32.33 0.118,15.533 0.255,31.069 0.362,46.603 0.148,21.866 -8.714,39.323 -26.784,51.469 -27.414,18.42 -61.995,9.981 -79.882,-13.457 -8.33,-10.916 -12.225,-23.256 -12.243,-36.944 -0.024,-16.908 -0.216,-33.814 -0.318,-50.721 -0.035,-5.658 2.075,-7.592 7.814,-7.151 6.963,0.531 13.154,3.059 19.105,7.931 z"
+     id="path21"
+     style="fill:#b2e3f8" />
+<path
+     d="m 257.911,173.182 c 0.087,0.938 0.292,2.186 0.301,3.434 0.219,25.975 0.401,51.946 0.621,77.918 0.024,2.966 -0.646,5.64 -3.641,6.739 -2.343,0.865 -4.756,0.261 -6.166,-1.971 -0.733,-1.163 -1.108,-2.744 -1.121,-4.143 -0.248,-26.396 -0.406,-52.792 -0.603,-79.188 -0.022,-3.011 1.176,-5.229 4.189,-5.899 2.621,-0.581 4.754,0.505 6.42,3.11 z"
+     id="path23"
+     style="fill:#b2e3f8" />
+  <path
+     d="m 284.843,260.367 c -4.772,2.357 -8.887,-0.518 -8.947,-4.978 -0.132,-9.713 -0.151,-19.428 -0.214,-29.142 -0.086,-12.247 -0.162,-24.497 -0.26,-36.745 -0.021,-2.381 0.512,-4.776 2.906,-5.445 1.721,-0.479 4.305,-0.376 5.553,0.638 1.378,1.119 2.296,3.562 2.329,5.449 0.285,14.991 0.309,29.985 0.412,44.979 0.046,6.546 0.271,13.101 0.024,19.636 -0.082,2.189 -1.368,4.334 -1.803,5.608 z"
+     id="path25"
+     style="fill:#b2e3f8" />
+                        <!-- menu button label or icon goes here -->
+                    </g>
+
+
+</svg>
+
+</div>
+</body>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.3.0/snap.svg-min.js"></script>
+<script type='text/javascript' src="js/general_purpose.js"></script>
+</html>
