@@ -85,12 +85,18 @@ class TtsActionServer(object):
         #file exists. play it
         if os.path.exists(wavPath):
             print green("file exists. playing it ^^")
+            self._feedback.status = self._feedback.SPEAKING
+            self._as.publish_feedback(self._feedback)
             playback(wavPath)
             self._result.success = True
+            self._feedback.status = self._feedback.FREE
+            self._as.publish_feedback(self._feedback)
             self._as.set_succeeded(self._result)
 
-        #file doenst exist. fetch it from the internet
+        #file doesnt exist. fetch it from the internet
         else:
+            self._feedback.status = self._feedback.DOWNLOADING
+            self._as.publish_feedback(self._feedback)
             message = unicode(message,'utf-8')
 
             rospy.loginfo("Speech goal received.")
@@ -114,12 +120,18 @@ class TtsActionServer(object):
 
                 if synth_req.response.was_successful():
                     print "\nText synthesized to file -> %s" % yellow(filename)
+                    self._feedback.status = self._feedback.SPEAKING
+                    self._as.publish_feedback(self._feedback)
                     playback(wavPath)
                     self._result.success = True
                     self._as.set_succeeded(self._result)
+                    self._feedback.status = self._feedback.FREE
+                    self._as.publish_feedback(self._feedback)
                 else:
                     print red("\nNDEV TTS Error %s" % synth_req.response.error_message)
                     self._as.set_aborted(self._result)
+                    self._feedback.status = self._feedback.FREE
+                    self._as.publish_feedback(self._feedback)
                     
             except Exception as e:
                 print red(e)

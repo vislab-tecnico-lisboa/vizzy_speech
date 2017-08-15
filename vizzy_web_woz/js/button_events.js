@@ -1,4 +1,5 @@
 var expanded = false;
+var alreadySpeaking = false;
 var expandedButtonId = 0;
 var index=0;
 
@@ -25,7 +26,7 @@ function getIndex()
 
 
 /***************************************************************************/
-
+/*
 function speakYesNo(button)
 {
 	if(expanded)
@@ -75,10 +76,13 @@ function speakYesNo(button)
 	goal.send();
 
 
-}
+}*/
 
 function speak(clickedJoint)
 {
+
+  if(alreadySpeaking)
+    return;
 	
 	//Speak
 	//Select a random sentence
@@ -97,11 +101,12 @@ function speak(clickedJoint)
   });
 
   goal.on('feedback', function(feedback) {
-    console.log('Feedback: ' + feedback.sequence);
+    console.log('Feedback: ' + feedback.status);
   });
 
   goal.on('result', function(result) {
     console.log('Final Result: ' + result.success);
+    alreadySpeaking = false; 
   });
 
   ros.on('connection', function() {
@@ -116,7 +121,8 @@ function speak(clickedJoint)
     console.log('Connection to websocket server closed.');
   });
 
-	goal.send();
+  goal.send();
+  alreadySpeaking = true;
 
 	
 	//Vizzy spoke. Unexpand everything
