@@ -29,6 +29,14 @@ body {
     display: none;
 }
 
+.escondido{
+    display: none;
+}
+
+.visivel{
+    display: visible;
+}
+
 
 .btn_game_doubts_joint{
     display: none;
@@ -51,6 +59,10 @@ body {
 }
 
 .btn_gameinfo_joint{
+    display: none;
+}
+
+.btn_joking_joint{
     display: none;
 }
 

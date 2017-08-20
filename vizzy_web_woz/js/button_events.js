@@ -3,6 +3,12 @@ var alreadySpeaking = false;
 var expandedButtonId = 0;
 var index=0;
 
+
+document.querySelector("#speaking_icon").classList.add('escondido');
+document.querySelector("#free_icon").classList.add('escondido');
+document.querySelector("#downloading_icon").classList.add('escondido');
+
+
 function getIndex()
 {
   if(index == 3)
@@ -13,16 +19,24 @@ function getIndex()
 }
 
 
+
+
 /******************ROS STUFF ***********************************************/
   var ros = new ROSLIB.Ros({
     url : 'ws://localhost:9090'
   });
 
+    
     var speechClient = new ROSLIB.ActionClient({
     ros : ros,
     serverName : 'nuance_speech_tts',
     actionName : 'woz_dialog_msgs/SpeechAction'
   });
+
+  document.querySelector("#free_icon").classList.remove('escondido');
+
+
+
 
 
 /***************************************************************************/
@@ -102,11 +116,29 @@ function speak(clickedJoint)
 
   goal.on('feedback', function(feedback) {
     console.log('Feedback: ' + feedback.status);
+    
+    if(feedback.status == 2)
+      {
+        document.querySelector("#speaking_icon").classList.remove('escondido');
+        document.querySelector("#free_icon").classList.add('escondido');
+        document.querySelector("#downloading_icon").classList.add('escondido');
+      }
+    else if(feedback.status == 1)
+      {
+        document.querySelector("#speaking_icon").classList.add('escondido');
+        document.querySelector("#free_icon").classList.add('escondido');
+        document.querySelector("#downloading_icon").classList.remove('escondido');
+      }
+
   });
 
   goal.on('result', function(result) {
     console.log('Final Result: ' + result.success);
-    alreadySpeaking = false; 
+    alreadySpeaking = false;
+
+    document.querySelector("#speaking_icon").classList.add('escondido');
+    document.querySelector("#free_icon").classList.remove('escondido');
+    document.querySelector("#downloading_icon").classList.add('escondido');
   });
 
   ros.on('connection', function() {
@@ -115,6 +147,9 @@ function speak(clickedJoint)
 
   ros.on('error', function(error) {
     console.log('Error connecting to websocket server: ', error);
+    
+    document.querySelector("#status_failed_icon").classList.remove('escondido');
+    document.querySelector("#status_failed_icon").classList.add('visivel');
   });
 
   ros.on('close', function() {
@@ -127,12 +162,12 @@ function speak(clickedJoint)
 	
 	//Vizzy spoke. Unexpand everything
 	id = expandedButtonId;
-	var query = "g:not(#"+id+").group_button"
+	var query = ":not(#"+id+").group_button"
 	var elementsToUnBlur = document.querySelectorAll(query);
 
 	for(var i=0; i<elementsToUnBlur.length; i++)
 	{
-		var button = elementsToUnBlur[i];
+  		var button = elementsToUnBlur[i];
 	  	button.classList.remove('chilled');
 	}
 

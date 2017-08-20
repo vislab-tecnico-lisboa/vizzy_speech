@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.49497475"
-     inkscape:cx="1097.4147"
-     inkscape:cy="742.6987"
+     inkscape:cx="742.85116"
+     inkscape:cy="522.51633"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -36,9 +36,9 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:window-width="1920"
-     inkscape:window-height="1016"
+     inkscape:window-height="1009"
      inkscape:window-x="0"
-     inkscape:window-y="27"
+     inkscape:window-y="34"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata7514">
@@ -48,7 +48,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -112,8 +112,8 @@
          id="text505"
          font-size="62"
          style="font-size:62px;font-family:GothamRounded-Medium;fill:#a7a9ac"
-         x="190.7334"
-         y="-63.114609">Bem jogado!</text>
+         x="50.733398"
+         y="-63.114609">Não teria energia!</text>
       <path
          id="path5171"
          d="m 668.70379,-123.51132 c 22.66616,-0.56226 41.49615,17.36309 42.05624,40.02383 0.56119,22.66834 -17.35876,41.49398 -40.02927,42.05625 -22.664,0.55901 -41.48964,-17.362 -42.04865,-40.02819 -0.56444,-22.66399 17.35552,-41.48962 40.02168,-42.05189 z"
@@ -126,8 +126,8 @@
          id="text509"
          font-size="62"
          style="font-size:62px;font-family:GothamRounded-Medium;fill:#a7a9ac"
-         x="142.375"
-         y="30.254608">Essa foi boa!</text>
+         x="302.375"
+         y="30.254608">Foi boa!</text>
       <path
          style="fill:#fafdfe;stroke:#d4e2f4;stroke-width:5.11835384;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          inkscape:connector-curvature="0"
@@ -140,8 +140,8 @@
          id="text513"
          font-size="62"
          style="font-size:62px;font-family:GothamRounded-Medium;fill:#a7a9ac"
-         x="-295.56348"
-         y="130.77609">Acho que está a melhorar</text>
+         x="162.43652"
+         y="130.77609">A melhorar</text>
       <path
          id="path7738"
          d="m 586.94379,70.166685 c 22.66616,-0.56226 41.49615,17.363095 42.05624,40.023825 0.56119,22.66834 -17.35876,41.49398 -40.02927,42.05625 -22.664,0.55901 -41.48964,-17.362 -42.04865,-40.02819 -0.56444,-22.66398 17.35552,-41.489615 40.02168,-42.051885 z"
@@ -154,8 +154,8 @@
          id="text517"
          font-size="62"
          style="font-size:62px;font-family:GothamRounded-Medium;fill:#a7a9ac"
-         x="259.93555"
-         y="235.40298">Frase 4</text>
+         x="219.93555"
+         y="235.40298">Quase lá</text>
       <path
          style="fill:#fafdfe;stroke:#d4e2f4;stroke-width:5.11835384;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          inkscape:connector-curvature="0"
@@ -168,8 +168,8 @@
          id="text521"
          font-size="62"
          style="font-size:62px;font-family:GothamRounded-Medium;fill:#a7a9ac"
-         x="267.52832"
-         y="339.84149">Frase 5</text>
+         x="199.52832"
+         y="339.84149">Por pouco</text>
       <path
          id="path7742"
          d="m 576.41379,280.33268 c 22.66616,-0.56226 41.49615,17.3631 42.05624,40.02383 0.56119,22.66834 -17.35876,41.49398 -40.02927,42.05625 -22.664,0.55901 -41.48964,-17.362 -42.04865,-40.02819 -0.56444,-22.66398 17.35552,-41.48962 40.02168,-42.05189 z"
@@ -182,8 +182,8 @@
          id="text525"
          font-size="62"
          style="font-size:62px;font-family:GothamRounded-Medium;fill:#a7a9ac"
-         x="287.67871"
-         y="444.20087">Frase 6</text>
+         x="187.67871"
+         y="444.20087">Bola rápida</text>
       <path
          style="fill:#fafdfe;stroke:#d4e2f4;stroke-width:5.11835384;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          inkscape:connector-curvature="0"
@@ -196,10 +196,10 @@
          id="g7774">
         <text
            y="543.20972"
-           x="328.48633"
+           x="168.48633"
            style="font-size:62px;font-family:GothamRounded-Medium;fill:#a7a9ac"
            font-size="62"
-           id="text529">Frase 7</text>
+           id="text529">Praticar mais</text>
       </g>
       <path
          id="path7746"
@@ -213,13 +213,129 @@
          id="text533"
          font-size="62"
          style="font-size:62px;font-family:GothamRounded-Medium;fill:#a7a9ac"
-         x="383.49023"
-         y="636.47241">Frase 8</text>
+         x="323.49023"
+         y="636.47241">Excelente</text>
       <path
          style="fill:#fafdfe;stroke:#d4e2f4;stroke-width:5.11835384;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          inkscape:connector-curvature="0"
          d="m 694.49379,570.85868 c 22.66616,-0.56226 41.49615,17.3631 42.05624,40.02383 0.56119,22.66834 -17.35876,41.49398 -40.02927,42.05625 -22.664,0.55901 -41.48964,-17.362 -42.04865,-40.02819 -0.56444,-22.66398 17.35552,-41.48962 40.02168,-42.05189 z"
          id="path7748" />
+    </g>
+    <g
+       id="btn_motivation_joint_9">
+      <text
+         y="-63.134911"
+         x="-670.77185"
+         style="font-size:62px;font-family:GothamRounded-Medium;fill:#a7a9ac"
+         font-size="62"
+         id="text4170">Bora lá?</text>
+      <path
+         style="fill:#fafdfe;stroke:#d4e2f4;stroke-width:5.11835384;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0"
+         d="m -756.61037,-123.53162 c -22.66616,-0.56226 -41.49615,17.36309 -42.05624,40.023825 -0.56119,22.66834 17.35876,41.49398 40.02927,42.05625 22.664,0.55901 41.48964,-17.362 42.04865,-40.02819 0.56444,-22.663985 -17.35552,-41.489615 -40.02168,-42.051885 z"
+         id="path4172" />
+    </g>
+    <g
+       id="btn_motivation_joint_10">
+      <text
+         y="30.234306"
+         x="-635.52673"
+         style="font-size:62px;font-family:GothamRounded-Medium;fill:#a7a9ac"
+         font-size="62"
+         id="text4176">Boa</text>
+      <path
+         id="path4178"
+         d="m -707.25037,-30.375623 c -22.66616,-0.56226 -41.49615,17.36309 -42.05624,40.023828 -0.56119,22.66834 17.35876,41.49398 40.02927,42.05625 22.664,0.55901 41.48964,-17.362 42.04865,-40.02819 0.56444,-22.663988 -17.35552,-41.489618 -40.02168,-42.051888 z"
+         inkscape:connector-curvature="0"
+         style="fill:#fafdfe;stroke:#d4e2f4;stroke-width:5.11835384;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="btn_motivation_joint_11">
+      <text
+         y="130.75578"
+         x="-595.0365"
+         style="font-size:62px;font-family:GothamRounded-Medium;fill:#a7a9ac"
+         font-size="62"
+         id="text4182">Está no sangue</text>
+      <path
+         style="fill:#fafdfe;stroke:#d4e2f4;stroke-width:5.11835384;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0"
+         d="m -674.85037,70.14638 c -22.66616,-0.56226 -41.49615,17.363095 -42.05624,40.02383 -0.56119,22.66834 17.35876,41.49398 40.02927,42.05625 22.664,0.55901 41.48964,-17.362 42.04865,-40.02819 0.56444,-22.663985 -17.35552,-41.48962 -40.02168,-42.05189 z"
+         id="path4184" />
+    </g>
+    <g
+       id="btn_motivation_joint_12">
+      <text
+         y="235.38268"
+         x="-577.27576"
+         style="font-size:62px;font-family:GothamRounded-Medium;fill:#a7a9ac"
+         font-size="62"
+         id="text4188">Muito bem</text>
+      <path
+         id="path4190"
+         d="m -660.39037,174.77238 c -22.66616,-0.56226 -41.49615,17.3631 -42.05624,40.02383 -0.56119,22.66834 17.35876,41.49398 40.02927,42.05625 22.664,0.55901 41.48964,-17.362 42.04865,-40.02819 0.56444,-22.66398 -17.35552,-41.48962 -40.02168,-42.05189 z"
+         inkscape:connector-curvature="0"
+         style="fill:#fafdfe;stroke:#d4e2f4;stroke-width:5.11835384;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="btn_motivation_joint_13">
+      <text
+         y="339.8212"
+         x="-597.2533"
+         style="font-size:62px;font-family:GothamRounded-Medium;fill:#a7a9ac"
+         font-size="62"
+         id="text4194">Nasceu para isto</text>
+      <path
+         style="fill:#fafdfe;stroke:#d4e2f4;stroke-width:5.11835384;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0"
+         d="m -664.32037,280.31238 c -22.66616,-0.56226 -41.49615,17.3631 -42.05624,40.02383 -0.56119,22.66834 17.35876,41.49398 40.02927,42.05625 22.664,0.55901 41.48964,-17.362 42.04865,-40.02819 0.56444,-22.66398 -17.35552,-41.48962 -40.02168,-42.05189 z"
+         id="path4196" />
+    </g>
+    <g
+       id="btn_motivation_joint_14">
+      <text
+         y="444.18057"
+         x="-628.87634"
+         style="font-size:62px;font-family:GothamRounded-Medium;fill:#a7a9ac"
+         font-size="62"
+         id="text4200">Espectáculo! (F.M.)</text>
+      <path
+         id="path4202"
+         d="m -686.52037,383.57138 c -22.66616,-0.56226 -41.49615,17.3631 -42.05624,40.02383 -0.56119,22.66834 17.35876,41.49398 40.02927,42.05625 22.664,0.55901 41.48964,-17.362 42.04865,-40.02819 0.56444,-22.66398 -17.35552,-41.48962 -40.02168,-42.05189 z"
+         inkscape:connector-curvature="0"
+         style="fill:#fafdfe;stroke:#d4e2f4;stroke-width:5.11835384;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="btn_motivation_joint_15">
+      <g
+         transform="translate(-834.78158,-0.0203046)"
+         id="g4206">
+        <text
+           id="text4208"
+           font-size="62"
+           style="font-size:62px;font-family:GothamRounded-Medium;fill:#a7a9ac"
+           x="168.48633"
+           y="543.20972">Convide amigos</text>
+      </g>
+      <path
+         style="fill:#fafdfe;stroke:#d4e2f4;stroke-width:5.11835384;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0"
+         d="m -726.31037,481.40338 c -22.66616,-0.56226 -41.49615,17.3631 -42.05624,40.02383 -0.56119,22.66834 17.35876,41.49398 40.02927,42.05625 22.664,0.55901 41.48964,-17.362 42.04865,-40.02819 0.56444,-22.66398 -17.35552,-41.48962 -40.02168,-42.05189 z"
+         id="path4210" />
+    </g>
+    <g
+       id="btn_motivation_joint_16">
+      <text
+         y="636.45209"
+         x="-718.4906"
+         style="font-size:62px;font-family:GothamRounded-Medium;fill:#a7a9ac"
+         font-size="62"
+         id="text4214">Sempre a somar</text>
+      <path
+         id="path4216"
+         d="m -782.40037,570.83838 c -22.66616,-0.56226 -41.49615,17.3631 -42.05624,40.02383 -0.56119,22.66834 17.35876,41.49398 40.02927,42.05625 22.664,0.55901 41.48964,-17.362 42.04865,-40.02819 0.56444,-22.66398 -17.35552,-41.48962 -40.02168,-42.05189 z"
+         inkscape:connector-curvature="0"
+         style="fill:#fafdfe;stroke:#d4e2f4;stroke-width:5.11835384;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     </g>
   </g>
 </svg>

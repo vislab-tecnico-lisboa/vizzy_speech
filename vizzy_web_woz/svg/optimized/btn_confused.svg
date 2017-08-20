@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.70710678"
-     inkscape:cx="986.58555"
-     inkscape:cy="566.24349"
+     inkscape:cx="911.62789"
+     inkscape:cy="776.96131"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -58,7 +58,7 @@
      id="layer1"
      transform="translate(622.39242,144.7808)">
     <g
-       id="btn_game_doubts_joint_8"
+       id="btn_joking_joint_8"
        onClick="speak(this)"
        class="btn_game_doubts_joint">
       <text
@@ -74,7 +74,7 @@
          id="path3877" />
     </g>
     <g
-       id="btn_game_doubts_joint_1"
+       id="btn_joking_joint_1"
        onClick="speak(this)"
        class="btn_game_doubts_joint">
       <path
@@ -93,10 +93,10 @@
            id="tspan4325"
            y="192.08841"
            x="-220.06943"
-           sodipodi:role="line">Objectivo</tspan></text>
+           sodipodi:role="line">Preguiças</tspan></text>
     </g>
     <g
-       id="btn_game_doubts_joint_2"
+       id="btn_joking_joint_2"
        onClick="speak(this)"
        class="btn_game_doubts_joint">
       <path
@@ -115,10 +115,10 @@
            x="-259.66739"
            y="287.50977"
            id="tspan4345"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:62px;font-family:GothamRounded-Medium;-inkscape-font-specification:GothamRounded-Medium;text-align:center;text-anchor:middle;fill:#a7a9ac;fill-opacity:1">Instruções (de pé)</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:62px;font-family:GothamRounded-Medium;-inkscape-font-specification:GothamRounded-Medium;text-align:center;text-anchor:middle;fill:#a7a9ac;fill-opacity:1">Deixe desculpas</tspan></text>
     </g>
     <g
-       id="btn_game_doubts_joint_3"
+       id="btn_joking_joint_3"
        onClick="speak(this)"
        class="btn_game_doubts_joint">
       <g
@@ -133,17 +133,17 @@
          sodipodi:linespacing="100%"
          id="text4353"
          y="366.60522"
-         x="-198.2948"
+         x="-72.2948"
          style="font-style:normal;font-weight:normal;font-size:90px;line-height:100%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#a7a9ac;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:62px;font-family:GothamRounded-Medium;-inkscape-font-specification:GothamRounded-Medium;text-align:center;text-anchor:middle;fill:#a7a9ac;fill-opacity:1"
            id="tspan4355"
            y="366.60522"
-           x="-198.2948"
-           sodipodi:role="line">Instruções (sentado)</tspan></text>
+           x="-72.2948"
+           sodipodi:role="line">Domésticas</tspan></text>
     </g>
     <g
-       id="btn_game_doubts_joint_4"
+       id="btn_joking_joint_4"
        onClick="speak(this)"
        class="btn_game_doubts_joint">
       <path
@@ -154,23 +154,18 @@
       <text
          xml:space="preserve"
          style="font-style:normal;font-weight:normal;font-size:90px;line-height:100%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#a7a9ac;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="-94.2948"
-         y="442.60522"
+         x="-92.2948"
+         y="446.60522"
          id="text4359"
          sodipodi:linespacing="100%"><tspan
-           id="tspan4363"
-           sodipodi:role="line"
-           x="-94.2948"
-           y="442.60522"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:62px;font-family:GothamRounded-Medium;-inkscape-font-specification:GothamRounded-Medium;text-align:center;text-anchor:middle;fill:#a7a9ac;fill-opacity:1">Para controlar o jogo</tspan><tspan
            id="tspan4367"
            sodipodi:role="line"
-           x="-94.2948"
-           y="504.60522"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:62px;font-family:GothamRounded-Medium;-inkscape-font-specification:GothamRounded-Medium;text-align:center;text-anchor:middle;fill:#a7a9ac;fill-opacity:1">(de pé)</tspan></text>
+           x="-92.2948"
+           y="446.60522"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:62px;font-family:GothamRounded-Medium;-inkscape-font-specification:GothamRounded-Medium;text-align:center;text-anchor:middle;fill:#a7a9ac;fill-opacity:1">Eu não teria energia</tspan></text>
     </g>
     <g
-       id="btn_game_doubts_joint_5"
+       id="btn_joking_joint_5"
        onClick="speak(this)"
        class="btn_game_doubts_joint">
       <path
@@ -181,23 +176,18 @@
       <text
          sodipodi:linespacing="100%"
          id="text4369"
-         y="444.01941"
-         x="779.68921"
+         y="446.01941"
+         x="825.68921"
          style="font-style:normal;font-weight:normal;font-size:90px;line-height:100%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#a7a9ac;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:62px;font-family:GothamRounded-Medium;-inkscape-font-specification:GothamRounded-Medium;text-align:center;text-anchor:middle;fill:#a7a9ac;fill-opacity:1"
-           y="444.01941"
-           x="779.68921"
+           y="446.01941"
+           x="825.68921"
            sodipodi:role="line"
-           id="tspan4371">Para controlar o jogo</tspan><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:62px;font-family:GothamRounded-Medium;-inkscape-font-specification:GothamRounded-Medium;text-align:center;text-anchor:middle;fill:#a7a9ac;fill-opacity:1"
-           y="506.01941"
-           x="779.68921"
-           sodipodi:role="line"
-           id="tspan4373">(sentado)</tspan></text>
+           id="tspan4373">Exercício desde 20 anos</tspan></text>
     </g>
     <g
-       id="btn_game_doubts_joint_6"
+       id="btn_joking_joint_6"
        onClick="speak(this)"
        class="btn_game_doubts_joint">
       <path
@@ -208,18 +198,18 @@
       <text
          xml:space="preserve"
          style="font-style:normal;font-weight:normal;font-size:90px;line-height:100%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#a7a9ac;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="771.06891"
+         x="831.06891"
          y="370.27933"
          id="text4379"
          sodipodi:linespacing="100%"><tspan
            sodipodi:role="line"
-           x="771.06891"
+           x="831.06891"
            y="370.27933"
            id="tspan4381"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:62px;font-family:GothamRounded-Medium;-inkscape-font-specification:GothamRounded-Medium;text-align:center;text-anchor:middle;fill:#a7a9ac;fill-opacity:1">Pode repetir?</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:62px;font-family:GothamRounded-Medium;-inkscape-font-specification:GothamRounded-Medium;text-align:center;text-anchor:middle;fill:#a7a9ac;fill-opacity:1">Força nas canetas</tspan></text>
     </g>
     <g
-       id="btn_game_doubts_joint_7"
+       id="btn_joking_joint_7"
        onClick="speak(this)"
        class="btn_game_doubts_joint">
       <path
@@ -231,18 +221,18 @@
          sodipodi:linespacing="100%"
          id="text4385"
          y="292.25494"
-         x="958.75012"
+         x="758.75012"
          style="font-style:normal;font-weight:normal;font-size:90px;line-height:100%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#a7a9ac;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:62px;font-family:GothamRounded-Medium;-inkscape-font-specification:GothamRounded-Medium;text-align:center;text-anchor:middle;fill:#a7a9ac;fill-opacity:1"
            id="tspan4387"
            y="292.25494"
-           x="958.75012"
-           sodipodi:role="line">Diga de outra forma</tspan></text>
+           x="758.75012"
+           sodipodi:role="line">EMPTY</tspan></text>
     </g>
     <g
        transform="matrix(0.41452184,0,0,0.41452184,213.5713,-108.39528)"
-       id="g3">
+       id="btn_joking">
       <path
          style="fill:#ffffff"
          inkscape:connector-curvature="0"

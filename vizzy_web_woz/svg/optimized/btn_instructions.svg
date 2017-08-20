@@ -1,9 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="100%"
    viewBox="0 0 1919.9999 1080.0003"
    id="btn_gamectrl_full"
    classe="btn_gamectrl_full"
-   version="1.1">
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="btn_instructions.svg">
+  <metadata
+     id="metadata55">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs53" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     id="namedview51"
+     showgrid="false"
+     inkscape:zoom="0.57010487"
+     inkscape:cx="707.31496"
+     inkscape:cy="527.26258"
+     inkscape:window-x="0"
+     inkscape:window-y="34"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
@@ -241,6 +284,47 @@
          inkscape:connector-curvature="0"
          d="m 955.80951,677.97163 c 22.66616,-0.56226 41.49615,17.36309 42.05624,40.02383 0.56119,22.66834 -17.35876,41.49398 -40.02927,42.05625 -22.664,0.55901 -41.48964,-17.362 -42.04865,-40.02819 -0.56444,-22.66399 17.35552,-41.48962 40.02168,-42.05189 z"
          id="path7395" />
+    </g>
+    <g
+       id="btn_gamectrl_joint_9"
+       transform="translate(-15.786569,-3.5081265)">
+      <text
+         y="599.34802"
+         x="-695.82959"
+         style="font-size:62px;font-family:GothamRounded-Medium;fill:#a7a9ac"
+         font-size="62"
+         id="text4185">Abola vai para a direita</text>
+      <path
+         id="path4187"
+         d="m -787.45243,539.10852 c 22.66616,-0.56226 41.49615,17.36309 42.05624,40.02383 0.56119,22.66834 -17.35876,41.49398 -40.02927,42.05625 -22.664,0.55901 -41.48964,-17.362 -42.04865,-40.02819 -0.56444,-22.66399 17.35552,-41.48962 40.02168,-42.05189 z"
+         inkscape:connector-curvature="0"
+         style="fill:#fafdfe;stroke:#d4e2f4;stroke-width:5.11835384;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:90px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="119.55904"
+       y="580.95294"
+       id="text4205"
+       sodipodi:linespacing="0%"><tspan
+         sodipodi:role="line"
+         id="tspan4207"
+         x="119.55904"
+         y="580.95294"> </tspan></text>
+    <g
+       id="btn_gamectrl_joint_10"
+       transform="translate(-75.42472,-64.90034)">
+      <path
+         id="path4201"
+         d="m -643.61924,707.4986 c 22.66616,-0.56226 41.49615,17.36309 42.05624,40.02383 0.56119,22.66834 -17.35876,41.49398 -40.02927,42.05625 -22.664,0.55901 -41.48964,-17.362 -42.04865,-40.02819 -0.56444,-22.66399 17.35552,-41.48962 40.02168,-42.05189 z"
+         inkscape:connector-curvature="0"
+         style="fill:#fafdfe;stroke:#d4e2f4;stroke-width:5.11835384;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <text
+         id="text4209"
+         font-size="62"
+         style="font-size:62px;font-family:GothamRounded-Medium;fill:#a7a9ac"
+         x="-562.52081"
+         y="767.7381">Abola vai para a esquerda</text>
     </g>
   </g>
 </svg>

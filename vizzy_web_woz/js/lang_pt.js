@@ -43,11 +43,11 @@ dictionary["btn_social_joint_6"].valor = ["De nada",
                                             "Sempre às suas ordens"];
 
 dictionary["btn_social_joint_7"] = {};                                       
-dictionary["btn_social_joint_7"].name = "EMPTY"
-dictionary["btn_social_joint_7"].valor = [" ",
-                                            " ",
-                                            " ",
-                                            " "];
+dictionary["btn_social_joint_7"].name = "Por favor"
+dictionary["btn_social_joint_7"].valor = ["Por favor",
+                                            "Se faz favor",
+                                            "Por favor",
+                                            "Se faz favor"];
 dictionary["btn_social_joint_8"] = {};                                       
 dictionary["btn_social_joint_8"].name = "EMPTY"
 dictionary["btn_social_joint_8"].valor = [" ",
@@ -94,59 +94,21 @@ dictionary["btn_persuade_joint_5"].valor = ["Este jogo é para fazer exercício 
                                             "No jogo, para além de se divertir ainda faz exercício físico",
                                             "Ao estar a jogar ainda faz exercício físico"];
 
+
 dictionary["btn_persuade_joint_6"] = {};                                       
-dictionary["btn_persuade_joint_6"].name = "Posso começar a ir para o sítio do jogo?"
-dictionary["btn_persuade_joint_6"].valor = ["Posso começar a navegar para o local do jogo?",
-                                            "Podemos ir até ao local do jogo?",
-                                            "Pode seguir-me até ao local do jogo?",
-                                            "Podemos começar a ir até ao local do jogo?"];
-
-
-dictionary["btn_persuade_joint_7"] = {};                                       
-dictionary["btn_persuade_joint_7"].name = "Então, vamos jogar?"
-dictionary["btn_persuade_joint_7"].valor = ["Então, vamos jogar",
-                                            "Quer vir jogar comigo?",
+dictionary["btn_persuade_joint_6"].name = "Então, vamos jogar?"
+dictionary["btn_persuade_joint_6"].valor = ["Então, vamos jogar?",
+                                            "Então, quer vir jogar comigo?",
                                             "Que é que acha, vamos jogar?",
                                             "Então, quer vir jogar?"];
 
+dictionary["btn_persuade_joint_7"] = {};                                       
+dictionary["btn_persuade_joint_7"].name = "Venha e não se vai arrepender"
+dictionary["btn_persuade_joint_7"].valor = ["Venha e não se vai arrepender",
+                                            "Se vier não se vai arrepender, prometo",
+                                            "Prometo que não se irá arrepender",
+                                            "Venha e não se irá arrepender, prometo"];
 
-
-
-//******************************************************** Btn_confused ************************************************************
-
-dictionary["btn_confused_joint_1"] = {};
-dictionary["btn_confused_joint_1"].name="Pode repetir?";
-dictionary["btn_confused_joint_1"].valor = ["Oiço mal, pode repetir?", 
-                                            "Não consegui ouvir, pode dizer outra vez?", 
-                                            "Às vezes ainda não percebo bem à primeira, pode repetir?", 
-                                            "Desculpe, mas pode repetir?"];
-
-dictionary["btn_confused_joint_2"] = {};
-dictionary["btn_confused_joint_2"].name="Diga por outras palavras"
-dictionary["btn_confused_joint_2"].valor = ["Pode por isso por outras palavras?",
-                                            "Pode dizer isso de outra forma?",
-                                            "Desculpe, mas pode dizer isso por outras palavras?",
-                                            "Pode colocar isso por outras palavras?"];
-
-dictionary["btn_confused_joint_3"] = {};                                            
-dictionary["btn_confused_joint_3"].name="Não sei"
-dictionary["btn_confused_joint_3"].valor = ["Não faço a mínima ideia",
-                                            "Não tenho esse tipo de conhecimento",
-                                            "Lamento, mas não sei",
-                                            "Desculpe, mas não sei"];
-
-dictionary["btn_confused_joint_4"] = {}; 
-dictionary["btn_confused_joint_4"].name="Não percebi"
-dictionary["btn_confused_joint_4"].valor = ["Não estou preparado para perceber o que disse",
-                                            "Ainda não fui programado para perceber o que disse",
-                                            "Desculpe, mas ainda não consigo perceber isso",
-                                            "Não consegui perceber, desculpe"];
-dictionary["btn_confused_joint_5"] = {};
-dictionary["btn_confused_joint_5"].name = "Podemos prosseguir?"
-dictionary["btn_confused_joint_5"].valor = ["Vamos lá?",
-                                            "Bóra?",
-                                            "Vamos lá?",
-                                            "Bóra lá?"];
 
 
 //******************************************************** Btn_userinstr ************************************************************
@@ -192,32 +154,32 @@ dictionary["btn_userinstr_joint_6"].valor = ["Por favor não pise a área de jog
                                             "Não pise a área de jogo por favor"];
 
 dictionary["btn_userinstr_joint_7"] = {};
-dictionary["btn_userinstr_joint_7"].name = "Não está a ser detectado"
-dictionary["btn_userinstr_joint_7"].valor = ["A plataforma de jogos não está a conseguir detectar",
-                                            "Parece que a plataforma de jogos não está a detectar a sua posição",
-                                            "A detecção da posição do seu corpo está a falhar",
-                                            "A plataforma não está a detectar o seu corpo"];
+dictionary["btn_userinstr_joint_7"].name = "Vire-se para a esquerda"
+dictionary["btn_userinstr_joint_7"].valor = ["Vire-se para a esquerda",
+                                            "Vire-se para a sua esquerda",
+                                            "Vire-se para a esquerda",
+                                            "Vire-se para a sua esquerda"];
 dictionary["btn_userinstr_joint_8"] = {};                                       
-dictionary["btn_userinstr_joint_8"].name = "Siga-me"
-dictionary["btn_userinstr_joint_8"].valor = ["Siga-me por favor",
-                                            "Por favor, siga-me",
-                                            "Venha comigo, por favor",
-                                            "Por favor, acompanhe-me"];
+dictionary["btn_userinstr_joint_8"].name = "Vire-se para a direita"
+dictionary["btn_userinstr_joint_8"].valor = ["Vire-se para a direita",
+                                            "Vire-se para a sua direita",
+                                            "Vire-se para a direita",
+                                            "Vire-se para a sua direita"];
 
-/******************************************************** YES and NO **********************************************+*/
+dictionary["btn_userinstr_joint_9"] = {};                                       
+dictionary["btn_userinstr_joint_9"].name = "A bola vai para a direita"
+dictionary["btn_userinstr_joint_9"].valor = ["A bola vai para a direita, tente-lhe acertar",
+                                            "Vá para a direita, a bola está a ir para lá",
+                                            "Vá para a sua direita e vai apanhar a bola",
+                                            "A bola está a ir para a direita, vá para lá"];
 
-dictionary["btn_yes"] = {};
-dictionary["btn_yes"].name = "Yes"
-dictionary["btn_yes"].valor = ["Sim",
-                                "Sim",
-                                "Sim",
-                                "Sim"];
-dictionary["btn_no"] = {};                                       
-dictionary["btn_no"].name = "No"
-dictionary["btn_no"].valor = ["Não",
-                                "Nem por isso",
-                                "Não",
-                                "Não"];
+dictionary["btn_userinstr_joint_10"] = {};                                       
+dictionary["btn_userinstr_joint_10"].name = "A bola vai para a esquerda"
+dictionary["btn_userinstr_joint_10"].valor = ["A bola vai para a esquerda, tente-lhe acertar",
+                                            "Vá para a esquerda, a bola está a ir para lá",
+                                            "Vá para a sua esquerda e vai apanhar a bola",
+                                            "A bola está a ir para a esquerda, vá para lá"];
+
 
 //******************************************************** Btn_motivation ************************************************************
 
@@ -238,7 +200,7 @@ dictionary["btn_motivation_joint_2"].valor = ["Essa foi muitíssimo boa",
 dictionary["btn_motivation_joint_3"] = {};                                            
 dictionary["btn_motivation_joint_3"].name="Está a melhorar"
 dictionary["btn_motivation_joint_3"].valor = ["Está a melhorar",
-                                            "Boa melhoria de perfórmance",
+                                            "Boa melhoria de desempenho",
                                             "Está a jogar cada vez melhor",
                                             "Está a apanhar-lhe bastante o jeito"];
 
@@ -268,351 +230,399 @@ dictionary["btn_motivation_joint_7"].valor = ["Precisamos de praticar mais",
                                             "É só continuar a praticar e vai ver que começa a ganhar",
                                             "Isto é tudo uma questão de prática"];
 dictionary["btn_motivation_joint_8"] = {};                                       
-dictionary["btn_motivation_joint_8"].name = "EMPTY"
-dictionary["btn_motivation_joint_8"].valor = [" ",
+dictionary["btn_motivation_joint_8"].name = "Excelente"
+dictionary["btn_motivation_joint_8"].valor = ["Excelente",
+                                            "Excelente",
+                                            "Excelente",
+                                            "Excelente"];
+
+dictionary["btn_motivation_joint_9"] = {};                                       
+dictionary["btn_motivation_joint_9"].name = "Bora lá?"
+dictionary["btn_motivation_joint_9"].valor = ["Bóra lá?",
+                                            "Bóra lá?",
+                                            "Bóra lá?",
+                                            "Bóra lá?"];
+
+dictionary["btn_motivation_joint_10"] = {};                                       
+dictionary["btn_motivation_joint_10"].name = "Boa"
+dictionary["btn_motivation_joint_10"].valor = ["Boa",
+                                            "Boa",
+                                            "Boa",
+                                            "Boa"];
+
+dictionary["btn_motivation_joint_11"] = {};                                       
+dictionary["btn_motivation_joint_11"].name = "Está no sangue"
+dictionary["btn_motivation_joint_11"].valor = ["Isso está-lhe no sangue",
+                                            "Está-lhe mesmo no sangue",
+                                            "Jogar isto está-lhe no sangue",
+                                            "Mas que bem, isso está-lhe no sangue"];
+
+dictionary["btn_motivation_joint_12"] = {};                                       
+dictionary["btn_motivation_joint_12"].name = "Muito bem"
+dictionary["btn_motivation_joint_12"].valor = ["Muito bem",
+                                            "Mas que bem",
+                                            "Muito bem",
+                                            "Mas que bem"];
+
+dictionary["btn_motivation_joint_13"] = {};                                       
+dictionary["btn_motivation_joint_13"].name = "Nasceu para isto"
+dictionary["btn_motivation_joint_13"].valor = ["Nasceu para isto",
+                                            "Nasceu mesmo para isto",
+                                            "Parece que nasceu para isto",
+                                            "Parece mesmo que nasceu para isto"];
+
+dictionary["btn_motivation_joint_14"] = {};                                       
+dictionary["btn_motivation_joint_14"].name = "Espectáculo (F.M.)"
+dictionary["btn_motivation_joint_14"].valor = ["Espectáculo (F.M.)",
+                                            "Espectáculo (F.M.)",
+                                            "Espectáculo (F.M.)",
+                                            "Espectáculo (F.M.)"];
+
+dictionary["btn_motivation_joint_15"] = {};                                       
+dictionary["btn_motivation_joint_15"].name = "Convide amigos"
+dictionary["btn_motivation_joint_15"].valor = ["Não se esqueça de convidar os seus amigos",
+                                            "Não se esqueça de convidar os seus amigos para virem jogar",
+                                            "Se gostou diga aos seus amigos para virem jogar",
+                                            "Se gostou de jogar convide os seus amigos"];
+
+dictionary["btn_motivation_joint_16"] = {};                                       
+dictionary["btn_motivation_joint_16"].name = "Sempre a somar"
+dictionary["btn_motivation_joint_16"].valor = ["Não se esqueça de convidar os seus amigos",
+                                            "Não se esqueça de convidar os seus amigos para virem jogar",
+                                            "Se gostou diga aos seus amigos para virem jogar",
+                                            "Se gostou de jogar convide os seus amigos"];
+
+//******************************************************** Btn_game_doubts ************************************************************
+
+dictionary["btn_game_doubts_joint_1"] = {};
+dictionary["btn_game_doubts_joint_1"].name="Objectivo";
+dictionary["btn_game_doubts_joint_1"].valor = ["O objectivo deste jogo é acertar na bola amarela com a barra verde", 
+                                            "Este jogo tem como objectivo acertar na bola amarela com a barra verde", 
+                                            "Ao jogar deverá usar a barra verde para acertar na bola amarela", 
+                                            "O objectivo do jogo é usar a barra verde para acertar na bola amarela"];
+
+dictionary["btn_game_doubts_joint_2"] = {};
+dictionary["btn_game_doubts_joint_2"].name="Instruções (de pé)"
+dictionary["btn_game_doubts_joint_2"].valor = ["Para jogar deverá ter o jogo projectado à sua frente, sem pisar a área de jogo",
+                                            "Para jogar este jogo deverá ficar à frente da projecção, sem pisar a área de jogo",
+                                            "Para poder jogar deverá ter o jogo projectado à sua frente, não devendo pisar a área de jogo",
+                                            "Para jogar deverá ter o jogo à sua frente, não devendo pisar a área de jogo"];
+
+dictionary["btn_game_doubts_joint_3"] = {};                                            
+dictionary["btn_game_doubts_joint_3"].name="Instruções (sentado)"
+dictionary["btn_game_doubts_joint_3"].valor = ["Para jogar deverá ter o jogo projectado à sua frente, sem pisar a área de jogo",
+                                            "Para jogar este jogo deverá ficar à frente da projecção, sem pisar a área de jogo",
+                                            "Para poder jogar deverá ter o jogo projectado à sua frente, não devendo pisar a área de jogo",
+                                            "Para jogar deverá ter o jogo à sua frente, não devendo pisar a área de jogo"];
+
+dictionary["btn_game_doubts_joint_4"] = {}; 
+dictionary["btn_game_doubts_joint_4"].name="Para controlar (pé)"
+dictionary["btn_game_doubts_joint_4"].valor = ["Poderá controlar a barra verde esticando o braço em direcção ao jogo e movendo a sua mão",
+                                            "Para controlar a barra verde estique o braço na direcção do jogo, e mova a sua mão de um lado para o outro",
+                                            "Esticando o braço em direcção ao jogo e mexendo a mão de um lado para o outro poderá controlar a barra verde",
+                                            "Para controlar a barra verde estique o braço na direcção do jogo, e mova a sua mão de um lado para o outro"];
+dictionary["btn_game_doubts_joint_5"] = {};                                       
+dictionary["btn_game_doubts_joint_5"].name = "Para controlar (sentado)"
+dictionary["btn_game_doubts_joint_5"].valor = ["Poderá controlar a barra verde esticando o braço em direcção ao jogo e movendo a sua mão",
+                                            "Para controlar a barra verde estique o braço na direcção do jogo, e mova a sua mão de um lado para o outro",
+                                            "Esticando o braço em direcção ao jogo e mexendo a mão de um lado para o outro poderá controlar a barra verde",
+                                            "Para controlar a barra verde estique o braço na direcção do jogo, e mova a sua mão de um lado para o outro"];
+dictionary["btn_game_doubts_joint_6"] = {};                                       
+dictionary["btn_game_doubts_joint_6"].name = "Pode repetir?"
+dictionary["btn_game_doubts_joint_6"].valor = ["Pode repetir?",
+                                            "Não percebi bem, pode repetir?",
+                                            "Oiço um pouco mal, pode repetir?",
+                                            "Pode repetir, por favor?"];
+
+dictionary["btn_game_doubts_joint_7"] = {};                                       
+dictionary["btn_game_doubts_joint_7"].name = "Diga de outra forma"
+dictionary["btn_game_doubts_joint_7"].valor = ["Pode dizer isso por outras palavras?",
+                                            "Pode dizer isso de outra forma?",
+                                            "Pode repetir por outras palavras?",
+                                            "Pode repetir de outra forma?"];
+dictionary["btn_game_doubts_joint_8"] = {};                                       
+dictionary["btn_game_doubts_joint_8"].name = "EMPTY"
+dictionary["btn_game_doubts_joint_8"].valor = [" ",
                                             " ",
                                             " ",
                                             " "];
 
 
-//******************************************************** Btn_doubts ************************************************************
 
-dictionary["btn_doubts_joint_1"] = {};
-dictionary["btn_doubts_joint_1"].name="Chegámos";
-dictionary["btn_doubts_joint_1"].valor = ["Chegámos ao local dos jogos", 
-                                            "Cá estamos nós, este é o local dos jogos", 
-                                            "Acabámos de chegar ao local dos jogos", 
-                                            "Chegámos ao sítio onde vamos jogar"];
+//******************************************************** Btn_game_ask ************************************************************
 
-dictionary["btn_doubts_joint_2"] = {};
-dictionary["btn_doubts_joint_2"].name="Instruções posição"
-dictionary["btn_doubts_joint_2"].valor = ["Para jogar na plataforma deverá ter a projecção do jogo à sua frente",
-                                            "Para começar a jogar é necessário ter a projecção do jogo à sua frente",
-                                            "Deverá ter a projecção do jogo à sua frente para jogar na plataforma de jogos",
-                                            "Deverá colocar-se de forma a ter o jogo projectado à sua frente para poder jogar"];
-
-dictionary["btn_doubts_joint_3"] = {};                                            
-dictionary["btn_doubts_joint_3"].name="Objectivo do jogo"
-dictionary["btn_doubts_joint_3"].valor = ["O objectivo deste jogo é acertar na bola com a barra",
-                                            "Este jogo tem como objectivo acertar na bola com a barra",
-                                            "Neste jogo deverá acertar com a barra na bola",
-                                            "Neste jogo o objectivo é acertar com a barra na bola"];
-
-dictionary["btn_doubts_joint_4"] = {}; 
-dictionary["btn_doubts_joint_4"].name="Para controlar o jogo..."
-dictionary["btn_doubts_joint_4"].valor = ["Para controlar a barra deverá andar para os lados, A posição da barra é a mesma que a da sua cintura",
-                                            "A posição da barra é a mesma da sua cintura, Poderá controlá-la andando para a esquerda e para a direita",
-                                            "Ao andar para a esquerda e para a direita verá que a barra vai mexer, , a posição da barra é a mesma que a da sua cintura",
-                                            "Para controlar a posição da barra basta andar para os lados, , a posição da barra é a da sua cintura"];
-dictionary["btn_doubts_joint_5"] = {};                                       
-dictionary["btn_doubts_joint_5"].name = "Veja o vídeo exemplo"
-dictionary["btn_doubts_joint_5"].valor = ["Repare no vídeo de exemplo",
-                                            "Para ver como jogar, repare no vídeo",
-                                            "No vídeo de exemplo pode ver como jogar",
-                                            "No vídeo que vai passar pode ver como jogar"];
-dictionary["btn_doubts_joint_6"] = {};                                       
-dictionary["btn_doubts_joint_6"].name = "EMPTY"
-dictionary["btn_doubts_joint_6"].valor = [" ",
-                                            " ",
-                                            " ",
-                                            " "];
-
-dictionary["btn_doubts_joint_7"] = {};                                       
-dictionary["btn_doubts_joint_7"].name = "EMPTY"
-dictionary["btn_doubts_joint_7"].valor = [" ",
-                                            " ",
-                                            " ",
-                                            " "];
-dictionary["btn_doubts_joint_8"] = {};                                       
-dictionary["btn_doubts_joint_8"].name = "EMPTY"
-dictionary["btn_doubts_joint_8"].valor = [" ",
-                                            " ",
-                                            " ",
-                                            " "];
-
-
-
-//******************************************************** Btn_gamectrl ************************************************************
-
-dictionary["btn_gamectrl_joint_1"] = {};
-dictionary["btn_gamectrl_joint_1"].name="Podemos começar a jogar?";
-dictionary["btn_gamectrl_joint_1"].valor = ["Podemos começar o jogo?", 
+dictionary["btn_game_ask_joint_1"] = {};
+dictionary["btn_game_ask_joint_1"].name="Podemos começar a jogar?";
+dictionary["btn_game_ask_joint_1"].valor = ["Podemos começar o jogo?", 
                                             "Podemos começar a jogar?", 
                                             "Está tudo pronto para jogar?", 
                                             "Podemos dar início ao jogo?"];
 
-dictionary["btn_gamectrl_joint_2"] = {};
-dictionary["btn_gamectrl_joint_2"].name="Podemos pausar?"
-dictionary["btn_gamectrl_joint_2"].valor = ["Podemos pausar o jogo?",
+dictionary["btn_game_ask_joint_2"] = {};
+dictionary["btn_game_ask_joint_2"].name="Podemos pausar?"
+dictionary["btn_game_ask_joint_2"].valor = ["Podemos pausar o jogo?",
                                             "Podemos meter o jogo em pausa?",
                                             "Podemos colocar o jogo em pausa?",
                                             "Podemos meter o jogo no modo pausa?"];
 
-dictionary["btn_gamectrl_joint_3"] = {};                                            
-dictionary["btn_gamectrl_joint_3"].name="Deseja continuar a jogar?"
-dictionary["btn_gamectrl_joint_3"].valor = ["Deseja continuar a jogar?",
-                                            "Quer continuar a jogar?",
-                                            "Podemos continuar o jogo?",
-                                            "Quer continuar o jogo?"];
+dictionary["btn_game_ask_joint_3"] = {};                                            
+dictionary["btn_game_ask_joint_3"].name="Quer parar o jogo ou continuar?"
+dictionary["btn_game_ask_joint_3"].valor = ["Quer parar o jogo ou continuar?",
+                                            "Deseja parar o jogo ou quer continuar?",
+                                            "Quer parar o jogo ou quer continuar?",
+                                            "Deseja parar o jogo ou continuar?"];
 
-dictionary["btn_gamectrl_joint_4"] = {}; 
-dictionary["btn_gamectrl_joint_4"].name="O jogo vai terminar"
-dictionary["btn_gamectrl_joint_4"].valor = ["O jogo vai terminar dentro de momentos",
-                                            "O jogo vai acabar em breve",
-                                            "O jogo vai terminar brevemente",
-                                            "O jogo está quase a acabar"];
-dictionary["btn_gamectrl_joint_5"] = {};
-dictionary["btn_gamectrl_joint_5"].name = "O jogo começou"
-dictionary["btn_gamectrl_joint_5"].valor = ["O jogo começou mesmo agora",
-                                            "O jogo acaba de começar",
-                                            "Já se deu início ao jogo",
-                                            "O jogo está iniciado a partir deste momento"];
-dictionary["btn_gamectrl_joint_6"] = {};                                       
-dictionary["btn_gamectrl_joint_6"].name = "Jogo em pausa"
-dictionary["btn_gamectrl_joint_6"].valor = ["O jogo acaba de entrar na pausa",
-                                            "O jogo está pausado a partir deste momento",
-                                            "O jogo está na pausa a partir de agora",
-                                            "Jogo pausado a partir deste instante"];
-
-dictionary["btn_gamectrl_joint_7"] = {};
-dictionary["btn_gamectrl_joint_7"].name = "O jogo terminou"
-dictionary["btn_gamectrl_joint_7"].valor = ["O jogo acaba de terminar agora",
-                                            "Jogo terminado neste instante",
-                                            "O jogo acabou neste momento",
-                                            "Jogo acabado neste instante"];
-dictionary["btn_gamectrl_joint_8"] = {};                                       
-dictionary["btn_gamectrl_joint_8"].name = "EMPTY"
-dictionary["btn_gamectrl_joint_8"].valor = [" ",
+dictionary["btn_game_ask_joint_4"] = {}; 
+dictionary["btn_game_ask_joint_4"].name="Sente-se bem?"
+dictionary["btn_game_ask_joint_4"].valor = ["Sente-se bem?",
+                                            "Está tudo bem?",
+                                            "Está a sentir-se bem?",
+                                            "Está tudo ok?"];
+dictionary["btn_game_ask_joint_5"] = {};
+dictionary["btn_game_ask_joint_5"].name = "Está a ser divertido?"
+dictionary["btn_game_ask_joint_5"].valor = ["Está a ser divertido?",
+                                            "O jogo está a ser divertido?",
+                                            "Está-se a divertir?",
+                                            "Está a ser um jogo divertido?"];
+dictionary["btn_game_ask_joint_6"] = {};                                       
+dictionary["btn_game_ask_joint_6"].name = "EMPTY"
+dictionary["btn_game_ask_joint_6"].valor = [" ",
                                             " ",
                                             " ",
                                             " "];
 
-//******************************************************** Btn_ack_negative ************************************************************
-
-dictionary["btn_ack_negative_joint_1"] = {};
-dictionary["btn_ack_negative_joint_1"].name="Oh, não quer mesmo vir?";
-dictionary["btn_ack_negative_joint_1"].valor = ["Oh, mas o jogo é tão divertido", 
-                                            "Oh, não quer mesmo vir?", 
-                                            "Não quer mesmo vir? O jogo é mesmo divertido", 
-                                            "De certeza que não quer vir? O jogo é tão divertido"];
-
-dictionary["btn_ack_negative_joint_2"] = {};
-dictionary["btn_ack_negative_joint_2"].name="Ok, diga-me quando podermos ir"
-dictionary["btn_ack_negative_joint_2"].valor = ["Vou então esperar, diga-me quando podermos ir",
-                                            "Ok, ficarei à espera até estarmos prontos",
-                                            "Certo, quando podermos seguir basta dizer",
-                                            "Ok, diga-me quando podermos seguir"];
-
-dictionary["btn_ack_negative_joint_3"] = {};                                            
-dictionary["btn_ack_negative_joint_3"].name="Ok, diga-me quando podermos começar"
-dictionary["btn_ack_negative_joint_3"].valor = ["Ok, diga-me quando podermos começar",
-                                            "Ok, quando desejar começar o jogo é só dizer",
-                                            "Certo, diga-me quando desejar começar a jogar",
-                                            "Certíssimo, começaremos a jogar quando desejar"];
-
-dictionary["btn_ack_negative_joint_4"] = {}; 
-dictionary["btn_ack_negative_joint_4"].name="Certo, então continuemos o jogo"
-dictionary["btn_ack_negative_joint_4"].valor = ["Certo, então continuemos o jogo",
-                                            "Ok, vamos continuar então",
-                                            "Continuemos a jogar então",
-                                            "Certíssimo, vamos continuar o jogo"];
-
-dictionary["btn_ack_negative_joint_5"] = {}; 
-dictionary["btn_ack_negative_joint_5"].name="Certíssimo, vamos continuar o jogo"
-dictionary["btn_ack_negative_joint_5"].valor = ["Certo, então continuemos o jogo",
-                                            "Ok, vamos continuar então",
-                                            "Continuemos a jogar então",
-                                            "Certíssimo, vamos continuar o jogo"];
-
-dictionary["btn_ack_negative_joint_6"] = {};                                       
-dictionary["btn_ack_negative_joint_6"].name = "Ok então"
-dictionary["btn_ack_negative_joint_6"].valor = ["Ok então",
-                                            "Ok, certo",
-                                            "Está bem",
-                                            "Está bem então"];
-
-dictionary["btn_ack_negative_joint_7"] = {};                                       
-dictionary["btn_ack_negative_joint_7"].name = "EMPTY"
-dictionary["btn_ack_negative_joint_7"].valor = [" ",
+dictionary["btn_game_ask_joint_7"] = {};
+dictionary["btn_game_ask_joint_7"].name = "EMPTY"
+dictionary["btn_game_ask_joint_7"].valor = [" ",
+                                            " ",
+                                            " ",
+                                            " "];
+dictionary["btn_game_ask_joint_8"] = {};                                       
+dictionary["btn_game_ask_joint_8"].name = "EMPTY"
+dictionary["btn_game_ask_joint_8"].valor = [" ",
                                             " ",
                                             " ",
                                             " "];
 
-dictionary["btn_ack_negative_joint_8"] = {};                                       
-dictionary["btn_ack_negative_joint_8"].name = "EMPTY"
-dictionary["btn_ack_negative_joint_8"].valor = [" ",
+//******************************************************** Btn_afterpersuade ************************************************************
+
+dictionary["btn_afterpersuade_joint_1"] = {};
+dictionary["btn_afterpersuade_joint_1"].name="Quer jogar, certo?";
+dictionary["btn_afterpersuade_joint_1"].valor = ["Quer jogar, certo?", 
+                                            "Quer vir jogar, certo?", 
+                                            "Pelo que percebi quer vir jogar, certo?", 
+                                            "Se percebi bem quer jogar, certo?"];
+
+dictionary["btn_afterpersuade_joint_2"] = {};
+dictionary["btn_afterpersuade_joint_2"].name="Oh, não quer?"
+dictionary["btn_afterpersuade_joint_2"].valor = ["Oh, não quer?",
+                                            "Oh, então mas não quer?",
+                                            "Oh, não quer mesmo?",
+                                            "Mas de certeza que não quer?"];
+
+dictionary["btn_afterpersuade_joint_3"] = {};                                            
+dictionary["btn_afterpersuade_joint_3"].name="Boa, vamos jogar!"
+dictionary["btn_afterpersuade_joint_3"].valor = ["Boa, vamos jogar",
+                                            "Muito bem, vamos jogar",
+                                            "Boa, vamos lá jogar",
+                                            "Muito bem, vamos jogar"];
+
+dictionary["btn_afterpersuade_joint_4"] = {}; 
+dictionary["btn_afterpersuade_joint_4"].name="Podemos ir, certo?"
+dictionary["btn_afterpersuade_joint_4"].valor = ["Podemos ir, certo?",
+                                            "Podemos seguir, certo?",
+                                            "Podemos ir?",
+                                            "Podemos seguir?"];
+
+dictionary["btn_afterpersuade_joint_5"] = {}; 
+dictionary["btn_afterpersuade_joint_5"].name="Siga-me"
+dictionary["btn_afterpersuade_joint_5"].valor = ["Siga-me, por favor",
+                                            "Siga-me, se faz favor",
+                                            "Por favor siga-me",
+                                            "Venha comigo, por favor"];
+
+dictionary["btn_afterpersuade_joint_6"] = {};                                       
+dictionary["btn_afterpersuade_joint_6"].name = "Chegámos"
+dictionary["btn_afterpersuade_joint_6"].valor = ["Chegámos ao local de jogo",
+                                            "Chegámos ao local dos jogos",
+                                            "Chegámos ao sítio de jogo",
+                                            "Chegámos ao sítio dos jogos"];
+
+dictionary["btn_afterpersuade_joint_7"] = {};                                       
+dictionary["btn_afterpersuade_joint_7"].name = "EMPTY"
+dictionary["btn_afterpersuade_joint_7"].valor = [" ",
                                             " ",
                                             " ",
                                             " "];
 
 
-//******************************************************** Btn_ack_positive ************************************************************
+//******************************************************** Btn_yes ************************************************************
 
-dictionary["btn_ack_positive_joint_1"] = {};
-dictionary["btn_ack_positive_joint_1"].name="Boa, vamos jogar";
-dictionary["btn_ack_positive_joint_1"].valor = ["Certíssimo, vamos jogar", 
-                                            "Boa, vamos lá jogar", 
-                                            "Muito bem, então vamos jogar", 
-                                            "Fico muito contente por querer vir jogar"];
+dictionary["btn_yes_joint_1"] = {};
+dictionary["btn_yes_joint_1"].name="Sim";
+dictionary["btn_yes_joint_1"].valor = ["Sim", 
+                                        "Afirmativo", 
+                                        "Sim", 
+                                        "Afirmativo"];
 
-dictionary["btn_ack_positive_joint_2"] = {};
-dictionary["btn_ack_positive_joint_2"].name="Ok, então siga-me"
-dictionary["btn_ack_positive_joint_2"].valor = ["Certo, vou começar a navegar até à zona de jogos",
-                                            "Ok, então siga-me por favor",
-                                            "Certíssimo, então vou começar a navegar para o sítio dos jogos",
-                                            "Ok, vou começar a ir para a zona dos jogos"];
+dictionary["btn_yes_joint_2"] = {};
+dictionary["btn_yes_joint_2"].name="Tudo bem"
+dictionary["btn_yes_joint_2"].valor = ["Tudo bem",
+                                            "Tudo bem",
+                                            "Tudo bem",
+                                            "Tudo bem"];
 
-dictionary["btn_ack_positive_joint_3"] = {};                                            
-dictionary["btn_ack_positive_joint_3"].name="Ok, vou iniciar o jogo"
-dictionary["btn_ack_positive_joint_3"].valor = ["Ok, vou iniciar o jogo",
-                                            "Certo, vou dar início ao jogo",
-                                            "Certíssimo, vou iniciar o jogo",
-                                            "Ok, vou dar início ao jogo"];
+dictionary["btn_yes_joint_3"] = {};                                            
+dictionary["btn_yes_joint_3"].name="Acho que sim"
+dictionary["btn_yes_joint_3"].valor = ["Acho que sim",
+                                            "Penso que sim",
+                                            "Acho que sim",
+                                            "Penso que sim"];
 
-dictionary["btn_ack_positive_joint_4"] = {}; 
-dictionary["btn_ack_positive_joint_4"].name="Certo, vou pausar o jogo"
-dictionary["btn_ack_positive_joint_4"].valor = ["Certo, vou pausar o jogo",
-                                            "Ok, vou então pausar o jogo",
-                                            "Certíssimo, vou por o jogo em pausa",
-                                            "Ok, vou por o jogo em pausa"];
-dictionary["btn_ack_positive_joint_5"] = {};
-dictionary["btn_ack_positive_joint_5"].name = "Ok, vou terminar o jogo"
-dictionary["btn_ack_positive_joint_5"].valor = ["Ok, vou terminar o jogo",
-                                            "Certo, vou acabar o jogo",
-                                            "Certíssimo, vou dar um fim ao jogo",
-                                            "Ok, vou acabar o jogo"];
-dictionary["btn_ack_positive_joint_6"] = {};                                       
-dictionary["btn_ack_positive_joint_6"].name = "Confirmado"
-dictionary["btn_ack_positive_joint_6"].valor = ["Certíssimo",
-                                            "Certo",
-                                            "Ok",
+dictionary["btn_yes_joint_4"] = {}; 
+dictionary["btn_yes_joint_4"].name="Confirmado"
+dictionary["btn_yes_joint_4"].valor = ["Confirmado",
+                                            "Confirmado",
+                                            "Confirmado",
                                             "Confirmado"];
+dictionary["btn_yes_joint_5"] = {};
+dictionary["btn_yes_joint_5"].name = "Ok então"
+dictionary["btn_yes_joint_5"].valor = ["Ok então",
+                                            "Ok então",
+                                            "Ok então",
+                                            "Ok então"];
+dictionary["btn_yes_joint_6"] = {};                                       
+dictionary["btn_yes_joint_6"].name = "Talvez"
+dictionary["btn_yes_joint_6"].valor = ["Talvez",
+                                            "Talvez",
+                                            "Talvez",
+                                            "Talvez"];
 
-dictionary["btn_ack_positive_joint_7"] = {};                                       
-dictionary["btn_ack_positive_joint_7"].name = "EMPTY"
-dictionary["btn_ack_positive_joint_7"].valor = [" ",
+dictionary["btn_yes_joint_7"] = {};                                       
+dictionary["btn_yes_joint_7"].name = "Vou pensar nisso"
+dictionary["btn_yes_joint_7"].valor = ["Vou pensar nisso",
+                                            "Vou pensar nisso",
+                                            "Vou pensar nisso",
+                                            "Vou pensar nisso"];
+
+dictionary["btn_yes_joint_8"] = {};                                       
+dictionary["btn_yes_joint_8"].name = "EMPTY"
+dictionary["btn_yes_joint_8"].valor = [" ",
                                             " ",
                                             " ",
                                             " "];
 
-dictionary["btn_ack_positive_joint_8"] = {};                                       
-dictionary["btn_ack_positive_joint_8"].name = "EMPTY"
-dictionary["btn_ack_positive_joint_8"].valor = [" ",
-                                            " ",
-                                            " ",
-                                            " "];
+//******************************************************** Btn_gameinfo ************************************************************
 
-//******************************************************** Btn_ground_negative ************************************************************
+dictionary["btn_gameinfo_joint_1"] = {};
+dictionary["btn_gameinfo_joint_1"].name="Jogo vai começar";
+dictionary["btn_gameinfo_joint_1"].valor = ["O jogo vai começar", 
+                                            "O jogo está prestes a começar", 
+                                            "O jogo vai começar dentro de momentos", 
+                                            "O jogo está quase a começar"];
 
-dictionary["btn_ground_negative_joint_1"] = {};
-dictionary["btn_ground_negative_joint_1"].name="Oh, então mas não deseja jogar?";
-dictionary["btn_ground_negative_joint_1"].valor = ["Oh, então mas não deseja jogar?", 
-                                            "Então mas não quer vir jogar?", 
-                                            "Então? Não quer vir jogar?", 
-                                            "Oh, mas não quer jogar?"];
+dictionary["btn_gameinfo_joint_2"] = {};
+dictionary["btn_gameinfo_joint_2"].name="Jogo começou"
+dictionary["btn_gameinfo_joint_2"].valor = ["O jogo começou",
+                                            "O jogo acaba de começar",
+                                            "O jogo acabou de começar",
+                                            "Jogo iniciado"];
 
-dictionary["btn_ground_negative_joint_2"] = {};
-dictionary["btn_ground_negative_joint_2"].name="É para esperar um pouco?"
-dictionary["btn_ground_negative_joint_2"].valor = ["Deseja que espere um pouco, certo?",
-                                            "Pelo que percebi, quer que espere um pouco, certo?",
-                                            "Se percebi bem, deseja que espere um pouco, certo?",
-                                            "É para esperar um pouco então?"];
+dictionary["btn_gameinfo_joint_3"] = {};                                            
+dictionary["btn_gameinfo_joint_3"].name="Jogo em pausa"
+dictionary["btn_gameinfo_joint_3"].valor = ["O jogo está em pausa",
+                                            "Jogo no modo pausa",
+                                            "Jogo em pausa",
+                                            "O jogo está pausado"];
 
-dictionary["btn_ground_negative_joint_3"] = {};                                            
-dictionary["btn_ground_negative_joint_3"].name="Ainda não podemos começar?"
-dictionary["btn_ground_negative_joint_3"].valor = ["Ainda não podemos começar o jogo, certo?",
-                                            "Pelo que percebi, ainda não posso começar o jogo, certo?",
-                                            "Se percebi bem, não podemos começar, certo?",
-                                            "Pelo que entendi, ainda não podemos começar a jogar, certo?"];
+dictionary["btn_gameinfo_joint_4"] = {}; 
+dictionary["btn_gameinfo_joint_4"].name="Só mais um pouco"
+dictionary["btn_gameinfo_joint_4"].valor = ["Só mais um pouco",
+                                            "Só mais um bocadinho",
+                                            "Só mais um pouquinho",
+                                            "Jogamos só mais um bocadinho, pode ser?"];
 
-dictionary["btn_ground_negative_joint_4"] = {}; 
-dictionary["btn_ground_negative_joint_4"].name="Continuamos a jogar, certo?"
-dictionary["btn_ground_negative_joint_4"].valor = ["Continuamos a jogar, certo?",
-                                            "É para continuar o jogo, certo?",
-                                            "Se percebi bem, é para continuar o jogo, certo?",
-                                            "Pelo que percebi, devemos continuar o jogo, certo?"];
+dictionary["btn_gameinfo_joint_5"] = {};
+dictionary["btn_gameinfo_joint_5"].name = "Só mais um minuto"
+dictionary["btn_gameinfo_joint_5"].valor = ["Só mais um minutinho",
+                                            "Jogamos só mais um minuto, pode ser?",
+                                            "Só mais um minuto, pode ser?",
+                                            "Jogamos só mais um minutinho, pode ser?"];
 
-dictionary["btn_ground_negative_joint_5"] = {};
-dictionary["btn_ground_negative_joint_5"].name = "Continuamos a jogar, certo?"
-dictionary["btn_ground_negative_joint_5"].valor = ["Continuamos a jogar, certo?",
-                                            "Se percebi bem, é para continuar o jogo, certo?",
-                                            "É para continuar o jogo, certo?",
-                                            "Pelo que percebi, devemos continuar o jogo, certo?"];
+dictionary["btn_gameinfo_joint_6"] = {};                                       
+dictionary["btn_gameinfo_joint_6"].name = "Jogo vai terminar"
+dictionary["btn_gameinfo_joint_6"].valor = ["O jogo vai terminar",
+                                            "O jogo vai acabar",
+                                            "O jogo vai terminar",
+                                            "O jogo vai acabar"];
 
-dictionary["btn_ground_negative_joint_6"] = {};                                       
-dictionary["btn_ground_negative_joint_6"].name = "EMPTY"
-dictionary["btn_ground_negative_joint_6"].valor = [" ",
-                                            " ",
-                                            " ",
-                                            " "];
+dictionary["btn_gameinfo_joint_7"] = {};                                       
+dictionary["btn_gameinfo_joint_7"].name = "O jogo terminou"
+dictionary["btn_gameinfo_joint_7"].valor = ["O jogo acabou, bom trabalho",
+                                            "O jogo terminou, muito bem",
+                                            "Bom trabalho, Jogo terminado",
+                                            "Bem jogado, o jogo terminou"];
 
-dictionary["btn_ground_negative_joint_7"] = {};                                       
-dictionary["btn_ground_negative_joint_7"].name = "EMPTY"
-dictionary["btn_ground_negative_joint_7"].valor = [" ",
-                                            " ",
-                                            " ",
-                                            " "];
-
-dictionary["btn_ground_negative_joint_8"] = {};                                       
-dictionary["btn_ground_negative_joint_8"].name = "EMPTY"
-dictionary["btn_ground_negative_joint_8"].valor = [" ",
+dictionary["btn_gameinfo_joint_8"] = {};                                       
+dictionary["btn_gameinfo_joint_8"].name = "EMPTY"
+dictionary["btn_gameinfo_joint_8"].valor = [" ",
                                             " ",
                                             " ",
                                             " "];
 
 
-//******************************************************** Btn_ground_positive ************************************************************
+//******************************************************** Btn_no ************************************************************
 
-dictionary["btn_ground_positive_joint_1"] = {};
-dictionary["btn_ground_positive_joint_1"].name="Quer vir jogar, certo?";
-dictionary["btn_ground_positive_joint_1"].valor = ["Muito bem, quer vir jogar, certo?", 
-                                            "Excelente, pelo que percebi quer vir jogar, certo?", 
-                                            "Boa, quer vir jogar, certo?", 
-                                            "Muito bem, então quer vir jogar, certo?"];
+dictionary["btn_no_joint_1"] = {};
+dictionary["btn_no_joint_1"].name="Não";
+dictionary["btn_no_joint_1"].valor = ["Não", 
+                                            "Não", 
+                                            "Não", 
+                                            "Não"];
 
-dictionary["btn_ground_positive_joint_2"] = {};
-dictionary["btn_ground_positive_joint_2"].name="Posso ir, certo?"
-dictionary["btn_ground_positive_joint_2"].valor = ["Posso ir, certo?",
-                                            "Se percebi bem, então posso ir?",
-                                            "Portanto, posso ir, certo?",
-                                            "Se entendi bem, posso ir, certo?"];
+dictionary["btn_no_joint_2"] = {};
+dictionary["btn_no_joint_2"].name="Não sei"
+dictionary["btn_no_joint_2"].valor = ["Não sei",
+                                            "Não sei",
+                                            "Não sei",
+                                            "Não sei"];
 
-dictionary["btn_ground_positive_joint_3"] = {};                                            
-dictionary["btn_ground_positive_joint_3"].name="Podemos começar o jogo, certo?"
-dictionary["btn_ground_positive_joint_3"].valor = ["Pelo que percebi, podemos começar a jogar, certo?",
-                                            "É para começar, certo?",
-                                            "Portanto, posso começar o jogo, certo?",
-                                            "Se entendi bem, é para começar, certo?"];
+dictionary["btn_no_joint_3"] = {};                                            
+dictionary["btn_no_joint_3"].name="Não percebi"
+dictionary["btn_no_joint_3"].valor = ["Desculpe, mas não consegui perceber",
+                                            "Não consegui perceber",
+                                            "Desculpe, mas não percebi",
+                                            "Não percebi"];
 
-dictionary["btn_ground_positive_joint_4"] = {}; 
-dictionary["btn_ground_positive_joint_4"].name="É para pausar, certo?"
-dictionary["btn_ground_positive_joint_4"].valor = ["Deseja pausar o jogo, certo?",
-                                            "É para pausar, certo?",
-                                            "Disse que era para pausar, certo?",
-                                            "Se entendi bem, é para pausar, certo?"];
+dictionary["btn_no_joint_4"] = {}; 
+dictionary["btn_no_joint_4"].name="Nem por isso"
+dictionary["btn_no_joint_4"].valor = ["Nem por isso",
+                                            "Nem por isso",
+                                            "Nem por isso",
+                                            "Nem por isso"];
 
-dictionary["btn_ground_positive_joint_5"] = {};
-dictionary["btn_ground_positive_joint_5"].name = "É para terminar o jogo, certo?"
-dictionary["btn_ground_positive_joint_5"].valor = ["Deseja terminar o jogo, certo?",
-                                            "É para terminar, certo?",
-                                            "É para acabar o jogo, percebi bem?",
-                                            "Portanto, é para acabar o jogo, certo?"];
-dictionary["btn_ground_positive_joint_6"] = {};                                       
-dictionary["btn_ground_positive_joint_6"].name = "EMPTY"
-dictionary["btn_ground_positive_joint_6"].valor = [" ",
-                                            " ",
-                                            " ",
-                                            " "];
+dictionary["btn_no_joint_5"] = {};
+dictionary["btn_no_joint_5"].name = "Não me parece"
+dictionary["btn_no_joint_5"].valor = ["Não me parece",
+                                            "Não me parece",
+                                            "Não me parece",
+                                            "Não me parece"];
+dictionary["btn_no_joint_6"] = {};                                       
+dictionary["btn_no_joint_6"].name = "Nem pensar"
+dictionary["btn_no_joint_6"].valor = ["Nem pensar",
+                                            "De modo nenhum",
+                                            "De forma alguma",
+                                            "De modo nenhum"];
 
-dictionary["btn_ground_positive_joint_7"] = {};                                       
-dictionary["btn_ground_positive_joint_7"].name = "EMPTY"
-dictionary["btn_ground_positive_joint_7"].valor = [" ",
-                                            " ",
-                                            " ",
-                                            " "];
-dictionary["btn_ground_positive_joint_8"] = {};                                       
-dictionary["btn_ground_positive_joint_8"].name = "EMPTY"
-dictionary["btn_ground_positive_joint_8"].valor = [" ",
+dictionary["btn_no_joint_7"] = {};                                       
+dictionary["btn_no_joint_7"].name = "Isso queria você"
+dictionary["btn_no_joint_7"].valor = ["Isso é que você queria",
+                                            "Isso queria você",
+                                            "Isso é que você queria",
+                                            "Isso queria você"];
+dictionary["btn_no_joint_8"] = {};                                       
+dictionary["btn_no_joint_8"].name = "EMPTY"
+dictionary["btn_no_joint_8"].valor = [" ",
                                             " ",
                                             " ",
                                             " "];
@@ -662,14 +672,72 @@ dictionary["btn_id_joint_6"].valor = ["Gostava de lhe dar um apêrto de mão, ma
                                             "O apêrto de mão é uma das funcionalidades que mais me pedem, mais ainda não consigo dar"];
 
 dictionary["btn_id_joint_7"] = {};                                       
-dictionary["btn_id_joint_7"].name = "EMPTY"
-dictionary["btn_id_joint_7"].valor = [" ",
+dictionary["btn_id_joint_7"].name = "Gosto muito de pessoas"
+dictionary["btn_id_joint_7"].valor = ["Gosto muito de pessoas",
+                                            "Gosto muito da vossa companhia",
+                                            "Estou muito bem na vossa companhia",
+                                            "Gosto muito de estar convosco"];
+dictionary["btn_id_joint_8"] = {};                                       
+dictionary["btn_id_joint_8"].name = "Sou um robot"
+dictionary["btn_id_joint_8"].valor = ["Sou um robô",
+                                            "Sou um robô",
+                                            "Sou um robô",
+                                            "Sou um robô"];
+
+
+//******************************************************** Btn_joking ************************************************************
+
+dictionary["btn_joking_joint_1"] = {};
+dictionary["btn_joking_joint_1"].name="Preguiças";
+dictionary["btn_joking_joint_1"].valor = ["Deixe-se de preguiças", 
+                                            "Deixe-se de preguiças", 
+                                            "Deixe-se de preguiças", 
+                                            "Deixe-se de preguiças"];
+
+dictionary["btn_joking_joint_2"] = {};
+dictionary["btn_joking_joint_2"].name="Deixe desculpas"
+dictionary["btn_joking_joint_2"].valor = ["Deixe-se de desculpas",
+                                            "Deixe-se lá de desculpas",
+                                            "Deixe-se de desculpas",
+                                            "Deixe-se lá de desculpas"];
+
+dictionary["btn_joking_joint_3"] = {};                                            
+dictionary["btn_joking_joint_3"].name="Domésticas"
+dictionary["btn_joking_joint_3"].valor = ["Escusa de pedir, não faço tarefas domésticas",
+                                            "Escusa de pedir, que eu não faço tarefas domésticas",
+                                            "Não adianta pedir que eu não faço tarefas domésticas",
+                                            "Não adianta pedir, eu não faço tarefas domésticas"];
+
+dictionary["btn_joking_joint_4"] = {}; 
+dictionary["btn_joking_joint_4"].name="Eu não teria energia"
+dictionary["btn_joking_joint_4"].valor = ["Porreiro, eu ficava sem bateria se fizesse isso", 
+                                            "Bom exercício, eu ficava sem bateria se tentasse fazer igual", 
+                                            "Fantástico exercício, se fosse comigo ficava sem bateria", 
+                                            "Bom trabalho, estou quase sem bateria só de ver"];
+
+dictionary["btn_joking_joint_5"] = {};                                       
+dictionary["btn_joking_joint_5"].name = "Exercício desde 20 anos"
+dictionary["btn_joking_joint_5"].valor = ["Aposto que não fazia tanto exercício desde os seus 20 anos",
+                                            "De certo que não fazia tanto exercício desde os 20 anos",
+                                            "Aposto que não fazia tanto exercício desde os 20 anos",
+                                            "De certeza que não fazia tanto exercício desde os seus 20 anos"];
+
+dictionary["btn_joking_joint_6"] = {};                                       
+dictionary["btn_joking_joint_6"].name = "Força nas canetas"
+dictionary["btn_joking_joint_6"].valor = ["Força nas canetas",
+                                            "Força nas canetas",
+                                            "Força nas canetas",
+                                            "Força nas canetas"];
+dictionary["btn_joking_joint_7"] = {};                                       
+dictionary["btn_joking_joint_7"].name = "EMPTY"
+dictionary["btn_joking_joint_7"].valor = [" ",
                                             " ",
                                             " ",
                                             " "];
-dictionary["btn_id_joint_8"] = {};                                       
-dictionary["btn_id_joint_8"].name = "EMPTY"
-dictionary["btn_id_joint_8"].valor = [" ",
+                        
+dictionary["btn_joking_joint_8"] = {};                                       
+dictionary["btn_joking_joint_8"].name = "EMPTY"
+dictionary["btn_joking_joint_8"].valor = [" ",
                                             " ",
                                             " ",
                                             " "];
