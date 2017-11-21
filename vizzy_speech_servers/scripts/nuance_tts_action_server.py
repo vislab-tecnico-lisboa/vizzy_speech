@@ -71,7 +71,16 @@ class TtsActionServer(object):
 
         filename = language+"/"+voice+"/"+message+".wav"
         audio_type = 'wav'
-
+        
+        print message
+        
+        if message == "EMPTY":
+            self._result.success = True
+            self._feedback.status = self._feedback.FREE
+            self._as.publish_feedback(self._feedback)
+            self._as.set_succeeded(self._result)
+            return
+            			
 
 
         #check if language and voice folders exist. if not, create them
