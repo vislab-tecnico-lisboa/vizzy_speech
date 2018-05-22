@@ -109,7 +109,7 @@ function speak(clickedJoint)
     actionClient : speechClient,
     goalMessage : {
       language : 'pt_PT',
-      voice: 'Joana',
+      voice: 'Joaquim',
       message: toSay
     }
   });

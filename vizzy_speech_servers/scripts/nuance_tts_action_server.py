@@ -123,7 +123,7 @@ class TtsActionServer(object):
                                         sample_rate=sample_rate,
                                         nchannels=1,
                                         sample_width=2,
-                                        text=message,
+                                        text="_______"+message,
                                         filename=wavPath,
                                         audio_type=audio_type)
 
