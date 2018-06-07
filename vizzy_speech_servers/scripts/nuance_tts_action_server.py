@@ -8,6 +8,9 @@ from woz_dialog_msgs.msg import SpeechActionGoal, SpeechFeedback, SpeechActionFe
 import sys
 import os
 
+reload(sys)
+sys.setdefaultencoding('utf8')
+
 import rospkg
 
 import pyaudio
