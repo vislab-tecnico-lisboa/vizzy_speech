@@ -17,6 +17,9 @@ import sys
 from core import NDEVCredentials, yellow, red, green
 from tts import *
 
+import hashlib
+
+
 def playback(outname):
     chunk_size = 1024
     paudio = pyaudio.PyAudio()
@@ -51,14 +54,14 @@ class TtsActionServer(object):
         if not self._creds.has_credentials():
             print red("Please provide NDEV credentials.")
             sys.exit(-1)
-        
+
         #check if wav directory exists. If it doesn't then create it
         wavDir = rospackagepath+"/wavs"
 
         if not os.path.exists(wavDir):
             print yellow("wavs directory doesn't exist. Creating it...")
             os.makedirs(wavDir)
-        
+
         self._action_name = name
         self._as = actionlib.SimpleActionServer(self._action_name, SpeechAction, execute_cb=self.execute_cb, auto_start = False)
         self._as.start()
@@ -69,18 +72,18 @@ class TtsActionServer(object):
         voice = goal.voice
         message = goal.message
 
-        filename = language+"/"+voice+"/"+message+".wav"
+        filename = language+"/"+voice+"/"+hashlib.sha256(message.encode('utf-8')).hexdigest()+".wav"
         audio_type = 'wav'
-        
+
         print message
-        
+
         if message == "EMPTY":
             self._result.success = True
             self._feedback.status = self._feedback.FREE
             self._as.publish_feedback(self._feedback)
             self._as.set_succeeded(self._result)
             return
-            			
+
 
 
         #check if language and voice folders exist. if not, create them
@@ -109,7 +112,7 @@ class TtsActionServer(object):
             message = unicode(message,'utf-8')
 
             rospy.loginfo("Speech goal received.")
-            
+
             desired_tts_lang = TTS.get_language_input(language,voice)
 
             print yellow("\nUsing Language: %s (%s)\tVoice: %s\n" % (desired_tts_lang['display'], desired_tts_lang['properties']['code'], desired_tts_lang['properties']['voice']))
@@ -141,7 +144,7 @@ class TtsActionServer(object):
                     self._as.set_aborted(self._result)
                     self._feedback.status = self._feedback.FREE
                     self._as.publish_feedback(self._feedback)
-                    
+
             except Exception as e:
                 print red(e)
                 sys.exit(-1)
