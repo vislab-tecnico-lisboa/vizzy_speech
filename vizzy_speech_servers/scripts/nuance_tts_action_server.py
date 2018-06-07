@@ -94,6 +94,7 @@ class TtsActionServer(object):
         #check if the file already exists. if it does, play it
         wavPath = self._rospackagepath+"/wavs/"+filename
 
+        
         #file exists. play it
         if os.path.exists(wavPath):
             print green("file exists. playing it ^^")
