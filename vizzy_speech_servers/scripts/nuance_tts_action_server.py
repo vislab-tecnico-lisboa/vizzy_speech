@@ -151,7 +151,7 @@ class TtsActionServer(object):
 
             except Exception as e:
                 print red(e)
-                sys.exit(-1)
+                print('Unable to download the file, no internet connection')
 
 
 if __name__ == '__main__':
