@@ -36,7 +36,7 @@ if __name__ == '__main__':
     #signal.signal(signal.SIGINT, signal_handler)
 
     wavDir = os.path.dirname(os.path.abspath(__file__))
-    wavPath = wavDir+"/../wavs/breath.wav"
+    wavPath = wavDir+"/../breath/breath.wav"
     while True:
         try:
             if os.path.exists(wavPath):
@@ -45,6 +45,7 @@ if __name__ == '__main__':
                 sleep(10)
             else:
                 print 'I CANT BEATHE'
+		print 'paht: '+wavPath
 
         except KeyboardInterrupt:
             print 'Exiting speaker awaker'
