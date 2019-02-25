@@ -4,6 +4,7 @@ var expandedButtonId = 0;
 var index=0;
 
 
+
 document.querySelector("#speaking_icon").classList.add('escondido');
 document.querySelector("#free_icon").classList.add('escondido');
 document.querySelector("#downloading_icon").classList.add('escondido');
@@ -92,24 +93,16 @@ function speakYesNo(button)
 
 }*/
 
-function speak(clickedJoint)
+function speak_inner(toSay)
 {
 
-  if(alreadySpeaking)
-    return;
-	
-	//Speak
-	//Select a random sentence
-	//var index = Math.floor(Math.random() * (3 - 0 + 1)) + 0;
-
-	//Get the sentence of that joint button
-	var toSay = dictionary[clickedJoint.id].valor[getIndex()];
+  console.log("Saying: "+ toSay)
 
   var goal = new ROSLIB.Goal({
     actionClient : speechClient,
     goalMessage : {
-      language : 'pt_PT',
-      voice: 'Joaquim',
+      language : language,
+      voice: voice,
       message: toSay
     }
   });
@@ -158,6 +151,24 @@ function speak(clickedJoint)
 
   goal.send();
   alreadySpeaking = true;
+
+}
+
+
+function speak(clickedJoint)
+{
+
+  if(alreadySpeaking)
+    return;
+	
+	//Speak
+	//Select a random sentence
+	//var index = Math.floor(Math.random() * (3 - 0 + 1)) + 0;
+
+	//Get the sentence of that joint button
+	var toSay = corpus[language].dictionary[clickedJoint.id].valor[getIndex()];
+
+  speak_inner(toSay)
 
 	
 	//Vizzy spoke. Unexpand everything
@@ -237,7 +248,7 @@ function expand_inner(id)
 	for(var i=0; i < elementsToSee.length; i++)
 	{
 		var joint = elementsToSee[i];
-		joint.style.display = "inline";
+		joint.style.display = "block";
 	}
 
 }
@@ -253,5 +264,19 @@ function unexpand_inner(id)
 		var joint = elementsToSee[i];
 		joint.style.display = "none";
 	}
+
+}
+
+
+function speak_custom()
+{
+  if(alreadySpeaking)
+    return;
+
+  var toSay = document.getElementById("text_to_say").value
+  speak_inner(toSay)
+
+  document.getElementById("text_to_say").value = ''
+  expand(document.getElementById("btn_custom"))
 
 }
