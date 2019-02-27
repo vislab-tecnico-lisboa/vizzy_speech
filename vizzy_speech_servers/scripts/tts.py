@@ -586,7 +586,7 @@ class TTSRequest(NDEVRequest):
 		print " Content-Type:\t%s" % hdrs['Content-Type']
 		print " Accept:\t%s" % hdrs['Accept']
 		print " "
-		response = requests.post(url, data=text_to_synth, headers=hdrs)
+		response = requests.post(url, data=text_to_synth, headers=hdrs, timeout=3.5)
 		print " Making request: %f seconds, %i bytes" % ((time.time() - start_time),len(response.content))
 		ret = TTSResponse(response)
 		if ret.was_successful():
