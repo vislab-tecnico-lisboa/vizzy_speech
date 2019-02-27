@@ -152,6 +152,11 @@ class TtsActionServer(object):
             except Exception as e:
                 print red(e)
                 print('Unable to download the file, no internet connection')
+                wavPath = self._rospackagepath+"/extra_sounds/speech_fail.wav"
+                playback(wavPath)
+                self._as.set_aborted(self._result)
+                self._feedback.status = self._feedback.FREE
+                self._as.publish_feedback(self._feedback)
 
 
 if __name__ == '__main__':

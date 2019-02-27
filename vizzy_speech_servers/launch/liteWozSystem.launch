@@ -16,8 +16,8 @@
     </node>
 
     <!-- Launch audio capture module -->
-    <include file="$(find audio_capture)/launch/capture.launch">
-    </include>    
+    <!-- <include file="$(find audio_capture)/launch/capture.launch">
+    </include> -->    
     
     <!-- Launch the VizzyArmsRoutines for waving and handshake gestures-->
 <!--    <node name="armroutines" pkg="vizzy_speech_servers" type="vizzyArmsRoutine.sh" /> -->

@@ -6,8 +6,11 @@ console.log("language: " + language)
 console.log("Voice: " + voice)
 
 if(language == null)
-  language = 'por-PRT'
-  voice = 'Joaquim'
+ {
+  language = 'pt_PT'
+  voice = 'Joaquim'   
+ }
+
 
 
 //Rewrite button titles according to current language
@@ -81,19 +84,19 @@ function setLanguage(lang)
 {
   language = lang
 
-  if(lang == 'por-PRT')
+  if(lang == 'pt_PT')
     voice = 'Joaquim'
-  else if(lang == 'eng-USA')
+  else if(lang == 'en_US')
     voice = 'Tom'
-  else if(lang == 'spa-ESP')
+  else if(lang == 'es_ES')
     voice = 'Jorge'
-  else if(lang == 'fra-FRA')
+  else if(lang == 'fr_FR')
     voice = 'Thomas'
-  else if(lang == 'nld-NLD')
+  else if(lang == 'nl_NL')
     voice = 'Xander'
-  else if(lang == 'deu-DEU')
+  else if(lang == 'de_DE')
     voice = 'Yannick'
-  else if(lang == 'ita-ITA')
+  else if(lang == 'it_IT')
     voice = 'Luca'
 
   localStorage.setItem("language", language);
