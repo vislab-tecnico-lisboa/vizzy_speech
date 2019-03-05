@@ -13,8 +13,8 @@ corpus["pt_PT"].dictionary["btn_social_joint_1"] = {};
 corpus["pt_PT"].dictionary["btn_social_joint_1"].name="Olá!";
 corpus["pt_PT"].dictionary["btn_social_joint_1"].valor = ["Olá", 
                                             "Ora viva", 
-                                            "Olá", 
-                                            "Ora viva"];
+                                            "Viva", 
+                                            "Oi"];
 
 corpus["pt_PT"].dictionary["btn_social_joint_2"] = {};
 corpus["pt_PT"].dictionary["btn_social_joint_2"].name="Adeus"
