@@ -24,36 +24,36 @@ corpus["en_US"].dictionary["btn_social_joint_2"].valor = ["Thank you for your co
 
 corpus["en_US"].dictionary["btn_social_joint_3"] = {};                                            
 corpus["en_US"].dictionary["btn_social_joint_3"].name="Sorry"
-corpus["en_US"].dictionary["btn_social_joint_3"].valor = ["Oops, peço desculpa.",
-                                            "Desculpe",
-                                            "Oh, desculpe.",
-                                            "Mil desculpas."];
+corpus["en_US"].dictionary["btn_social_joint_3"].valor = ["Oops, I'm sorry",
+                                            "Sorry",
+                                            "Oh, sorry",
+                                            "I'm sorry"];
 
 corpus["en_US"].dictionary["btn_social_joint_4"] = {}; 
 corpus["en_US"].dictionary["btn_social_joint_4"].name="Thanks"
-corpus["en_US"].dictionary["btn_social_joint_4"].valor = ["Obrigada",
-                                            "Muito obrigada",
-                                            "Obrigadíssima",
-                                            "Agradecida"];
+corpus["en_US"].dictionary["btn_social_joint_4"].valor = ["Thank you",
+                                            "Thank you very much",
+                                            "Thanks",
+                                            "Thanks a lot"];
 corpus["en_US"].dictionary["btn_social_joint_5"] = {};
 corpus["en_US"].dictionary["btn_social_joint_5"].name = "Excuse me"
-corpus["en_US"].dictionary["btn_social_joint_5"].valor = ["Com licença",
-                                            "Perdão, dá licença?",
-                                            "Com licença",
-                                            "Perdão, dá licença?"];
+corpus["en_US"].dictionary["btn_social_joint_5"].valor = ["Excuse me",
+                                            "Excuse me",
+                                            "Excuse me",
+                                            "Excuse me"];
 corpus["en_US"].dictionary["btn_social_joint_6"] = {};                                       
 corpus["en_US"].dictionary["btn_social_joint_6"].name = "You welcome"
-corpus["en_US"].dictionary["btn_social_joint_6"].valor = ["De nada",
-                                            "Não tem de quê",
-                                            "Ora essa",
-                                            "Sempre às suas ordens"];
+corpus["en_US"].dictionary["btn_social_joint_6"].valor = ["You welcome",
+                                            "You welcome",
+                                            "You welcome",
+                                            "You welcome"];
 
 corpus["en_US"].dictionary["btn_social_joint_7"] = {};                                       
 corpus["en_US"].dictionary["btn_social_joint_7"].name = "Please"
-corpus["en_US"].dictionary["btn_social_joint_7"].valor = ["Por favor",
-                                            "Se faz favor",
-                                            "Por favor",
-                                            "Se faz favor"];
+corpus["en_US"].dictionary["btn_social_joint_7"].valor = ["Please",
+                                            "Please",
+                                            "Please",
+                                            "Please"];
 corpus["en_US"].dictionary["btn_social_joint_8"] = {};                                       
 corpus["en_US"].dictionary["btn_social_joint_8"].name = "EMPTY"
 corpus["en_US"].dictionary["btn_social_joint_8"].valor = [" ",
@@ -67,53 +67,53 @@ corpus["en_US"].dictionary["btn_social_joint_8"].valor = [" ",
 
 corpus["en_US"].dictionary["btn_persuade_joint_1"] = {};
 corpus["en_US"].dictionary["btn_persuade_joint_1"].name="Let me show a game";
-corpus["en_US"].dictionary["btn_persuade_joint_1"].valor = ["Tenho um jogo para lhe mostrar, que gostava muito que jogasse",
-                                             "Tenho ali um jogo para si que acho que vai gostar",
-                                             "Hoje tenho um jogo que gostava que viesse jogar comigo",
-                                             "Gostava que viesse jogar um jogo comigo"];
+corpus["en_US"].dictionary["btn_persuade_joint_1"].valor = ["I have a game to show you, that you would like to play",
+                                             "I have a game for you that I'm sure you'll like",
+                                             "Today I have a game that I would like to play with you",
+                                             "I you like to play a game with you"];
 
 corpus["en_US"].dictionary["btn_persuade_joint_2"] = {};
 corpus["en_US"].dictionary["btn_persuade_joint_2"].name="The game is fun"
-corpus["en_US"].dictionary["btn_persuade_joint_2"].valor = ["Olhe que é um jogo muito divertido",
-                                            "O jogo é mesmo divertido, acho que devia mesmo vir jogar",
-                                            "O jogo é tão divertido que depois nem queremos parar de jogar",
-                                            "Se vier comigo vai ver o quão divertido o jogo é"];
+corpus["en_US"].dictionary["btn_persuade_joint_2"].valor = ["You should try the game, it's really fun",
+                                            "The game is really funny, come on, let's try it",
+                                            "The game is so fun that you can't stop playing it",
+                                            "If you come with me, you'll see how funny the game is"];
 
 corpus["en_US"].dictionary["btn_persuade_joint_3"] = {};                                            
 corpus["en_US"].dictionary["btn_persuade_joint_3"].name="It's for all ages"
-corpus["en_US"].dictionary["btn_persuade_joint_3"].valor = ["É um jogo para todas as idades",
-                                            "O jogo é para todas as idades",
-                                            "O jogo foi feito para miúdos e graúdos",
-                                            "Este jogo foi feito para todos, independentemente da idade"];
+corpus["en_US"].dictionary["btn_persuade_joint_3"].valor = ["It's a game for all ages",
+                                            "The game was made for all ages",
+                                            "It's a game for elders and youngsters alike",
+                                            "All people can play this game, their age doesn't matter"];
 
 corpus["en_US"].dictionary["btn_persuade_joint_4"] = {}; 
 corpus["en_US"].dictionary["btn_persuade_joint_4"].name="It's only 5 minutes"
-corpus["en_US"].dictionary["btn_persuade_joint_4"].valor = ["São apenas 5 minutos",
-                                            "O jogo apenas dura 5 minutos, é rápido",
-                                            "É bastante rápido, são apenas 5 minutos",
-                                            "São apenas 5 minutos de jogo"];
+corpus["en_US"].dictionary["btn_persuade_joint_4"].valor = ["It only lasts 5 minutes",
+                                            "It's really quick, just 5 minutes",
+                                            "It's not a long game, it's just 5 minutes",
+                                            "5 minutes, it's all it takes"];
 
 corpus["en_US"].dictionary["btn_persuade_joint_5"] = {};                                       
 corpus["en_US"].dictionary["btn_persuade_joint_5"].name = "It's for exercising"
-corpus["en_US"].dictionary["btn_persuade_joint_5"].valor = ["Este jogo é para fazer exercício físico",
-                                            "Enquanto está a jogar este jogo estará a fazer exercício físico",
-                                            "No jogo, para além de se divertir ainda faz exercício físico",
-                                            "Ao estar a jogar ainda faz exercício físico"];
+corpus["en_US"].dictionary["btn_persuade_joint_5"].valor = ["This is a game to make physical exercise",
+                                            "While playing you will make physical exercise",
+                                            "In this game you will have fun and make exercise",
+                                            "You will make physical exercise while playing"];
 
 
 corpus["en_US"].dictionary["btn_persuade_joint_6"] = {};                                       
 corpus["en_US"].dictionary["btn_persuade_joint_6"].name = "So, let's play?"
-corpus["en_US"].dictionary["btn_persuade_joint_6"].valor = ["Então, vamos jogar?",
-                                            "Então, quer vir jogar comigo?",
-                                            "Que é que acha, vamos jogar?",
-                                            "Então, quer vir jogar?"];
+corpus["en_US"].dictionary["btn_persuade_joint_6"].valor = ["So, let's play?",
+                                            "So, do you want to play with me?",
+                                            "What do you think, let's play?",
+                                            "So, do you want to play?"];
 
 corpus["en_US"].dictionary["btn_persuade_joint_7"] = {};                                       
 corpus["en_US"].dictionary["btn_persuade_joint_7"].name = "You won't regret it"
-corpus["en_US"].dictionary["btn_persuade_joint_7"].valor = ["Venha e não se vai arrepender",
-                                            "Se vier não se vai arrepender, prometo",
-                                            "Prometo que não se irá arrepender",
-                                            "Venha e não se irá arrepender, prometo"];
+corpus["en_US"].dictionary["btn_persuade_joint_7"].valor = ["Come and you won't regret it",
+                                            "If you come with me you will not regret it",
+                                            "I promise you won't regret it, if you come with me",
+                                            "Come with me, I promise you won't regret it"];
 
 
 
@@ -121,10 +121,10 @@ corpus["en_US"].dictionary["btn_persuade_joint_7"].valor = ["Venha e não se vai
 
 corpus["en_US"].dictionary["btn_userinstr_joint_1"] = {};
 corpus["en_US"].dictionary["btn_userinstr_joint_1"].name="Go backwards";
-corpus["en_US"].dictionary["btn_userinstr_joint_1"].valor = ["Ande um pouquinho para trás", 
-                                            "Dê um passo para trás", 
-                                            "Desloque-se um pouco para trás", 
-                                            "Ande ligeiramente para trás"];
+corpus["en_US"].dictionary["btn_userinstr_joint_1"].valor = ["Go a bit backwards", 
+                                            "Give a step back", 
+                                            "Just a step back, please", 
+                                            "Go backwards"];
 
 corpus["en_US"].dictionary["btn_userinstr_joint_2"] = {};
 corpus["en_US"].dictionary["btn_userinstr_joint_2"].name="Go forward"
