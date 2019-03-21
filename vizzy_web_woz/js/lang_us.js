@@ -128,24 +128,24 @@ corpus["en_US"].dictionary["btn_userinstr_joint_1"].valor = ["Go a bit backwards
 
 corpus["en_US"].dictionary["btn_userinstr_joint_2"] = {};
 corpus["en_US"].dictionary["btn_userinstr_joint_2"].name="Go forward"
-corpus["en_US"].dictionary["btn_userinstr_joint_2"].valor = ["Ande um pouco para a frente",
-                                            "Dê um passo em frente",
-                                            "Desloque-se um pouco para a frente",
-                                            "Ande ligeiramente para a frente"];
+corpus["en_US"].dictionary["btn_userinstr_joint_2"].valor = ["Go a bit forward",
+                                            "Step forward",
+                                            "One step forward",
+                                            "Go forward"];
 
 corpus["en_US"].dictionary["btn_userinstr_joint_3"] = {};                                            
 corpus["en_US"].dictionary["btn_userinstr_joint_3"].name="Go right"
-corpus["en_US"].dictionary["btn_userinstr_joint_3"].valor = ["Ande um pouco para a direita",
-                                            "Dê um passo para a direita",
-                                            "Desloque-se um pouco para a direita",
-                                            "Ande ligeiramente para a direita"];
+corpus["en_US"].dictionary["btn_userinstr_joint_3"].valor = ["Step right",
+                                            "Go right",
+                                            "Step right",
+                                            "Go a bit to your right"];
 
 corpus["en_US"].dictionary["btn_userinstr_joint_4"] = {}; 
 corpus["en_US"].dictionary["btn_userinstr_joint_4"].name="Go left"
-corpus["en_US"].dictionary["btn_userinstr_joint_4"].valor = ["Ande um pouco para a esquerda",
-                                            "Dê um passo para a esquerda",
-                                            "Desloque-se um pouco para a esquerda",
-                                            "Ande ligeiramente para a esquerda"];
+corpus["en_US"].dictionary["btn_userinstr_joint_4"].valor = ["Step left",
+                                            "Go left",
+                                            "Step left",
+                                            "Go a bit to your left"];
 corpus["en_US"].dictionary["btn_userinstr_joint_5"] = {};
 corpus["en_US"].dictionary["btn_userinstr_joint_5"].name = "That's the spot"
 corpus["en_US"].dictionary["btn_userinstr_joint_5"].valor = ["Ok, está na posição correcta",
