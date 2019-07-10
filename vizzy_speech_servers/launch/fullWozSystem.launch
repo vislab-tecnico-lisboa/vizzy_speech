@@ -3,7 +3,9 @@
 <arg name="navigation" default="true"/>
     <!-- Launch Vizzy -->
     <include file="$(find vizzy_launch)/launch/vizzy_real.launch">
-	  <arg name="navigation" value="$(arg navigation)"/>
+      <arg name="navigation" value="$(arg navigation)"/>
+      <arg name="map_file" value="mapa_piso7_NOVO_AWESOME.yaml"/>
+      <arg name="obstacles_map_file" value="mapa_piso7_NOVO_AWESOME.yaml"/>
     </include>
 
     <!-- Launch the web server -->
@@ -16,8 +18,8 @@
     </node>
 
     <!-- Launch audio capture module -->
-    <include file="$(find audio_capture)/launch/capture.launch">
-    </include>    
+    <!--<include file="$(find audio_capture)/launch/capture.launch">
+    </include>   --> 
     
     <!-- Launch the VizzyArmsRoutines for waving and handshake gestures-->
     <node name="armroutines" pkg="vizzy_speech_servers" type="vizzyArmsRoutine.sh" />
