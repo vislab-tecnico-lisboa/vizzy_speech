@@ -90,7 +90,7 @@ function load_speech_cb()
     voice
 
     if(language == 'pt_PT')
-        voice = 'Joaquim'
+        voice = 'pt-PT-Wavenet-D'
     else if(language == 'en_US')
         voice = 'Tom'
     else if(language == 'es_ES')

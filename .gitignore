@@ -1,4 +1,6 @@
 vizzy_speech_servers/wavs/*
+vizzy_speech_servers/wav/*
 vizzy_speech_servers/credentials/credentials.json
+vizzy_speech_servers/credentials/*
 .vscode
 *.pyc

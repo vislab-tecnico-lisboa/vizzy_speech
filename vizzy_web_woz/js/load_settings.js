@@ -8,7 +8,7 @@ console.log("Voice: " + voice)
 if(language == null)
  {
   language = 'pt_PT'
-  voice = 'Joaquim'   
+  voice = 'pt-PT-Wavenet-D'   
  }
 
 
@@ -85,7 +85,7 @@ function setLanguage(lang)
   language = lang
 
   if(lang == 'pt_PT')
-    voice = 'Joaquim'
+    voice = 'pt-PT-Wavenet-D'
   else if(lang == 'en_US')
     voice = 'Tom'
   else if(lang == 'es_ES')

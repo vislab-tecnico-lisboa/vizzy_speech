@@ -103,7 +103,8 @@ function speak_inner(toSay)
     goalMessage : {
       language : language,
       voice: voice,
-      message: toSay
+      message: toSay,
+      speed: 2
     }
   });
 
