@@ -12,7 +12,7 @@
 
     <!-- Launch the nuance speech action client-->
     <node pkg="vizzy_speech_servers" type="gcloud_tts_action_server.py"
-	    name="nuance_speech_tts" output="screen">
+	    name="gcloud_tts" output="screen">
     </node>
 
     <!-- Launch audio capture module -->
