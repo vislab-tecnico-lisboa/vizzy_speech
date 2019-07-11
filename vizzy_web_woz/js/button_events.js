@@ -30,7 +30,7 @@ function getIndex()
     
     var speechClient = new ROSLIB.ActionClient({
     ros : ros,
-    serverName : 'nuance_speech_tts',
+    serverName : '/gcloud_tts',
     actionName : 'woz_dialog_msgs/SpeechAction'
   });
 
