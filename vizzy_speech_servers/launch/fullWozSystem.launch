@@ -1,11 +1,21 @@
 <?xml version="1.0"?>
 <launch>
 <arg name="navigation" default="true"/>
+<arg name="define_machine" default="true"/>
+
+  <machine
+    name="vizzy-desktop"
+    address="10.10.1.80"
+    user="vizzy"
+    env-loader="/home/vizzy/catkin_ws/src/good_bad_robot/social_cues/env-hooks/env_loader.sh"
+    default="true"
+  />
     <!-- Launch Vizzy -->
     <include file="$(find vizzy_launch)/launch/vizzy_real.launch">
       <arg name="navigation" value="$(arg navigation)"/>
       <arg name="map_file" value="mapa_piso7_NOVO_AWESOME.yaml"/>
       <arg name="obstacles_map_file" value="mapa_piso7_NOVO_AWESOME.yaml"/>
+      <arg name="define_machine" value="false"/>
     </include>
 
     <!-- Launch the web server -->
@@ -22,6 +32,6 @@
     </include>   --> 
     
     <!-- Launch the VizzyArmsRoutines for waving and handshake gestures-->
-    <node name="armroutines" pkg="vizzy_speech_servers" type="vizzyArmsRoutine.sh" />
+    <node machine="vizzy-desktop" name="armroutines" pkg="vizzy_speech_servers" type="vizzyArmsRoutine.sh" />
 
 </launch>
