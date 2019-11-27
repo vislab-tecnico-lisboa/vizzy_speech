@@ -5,7 +5,7 @@
 
   <machine
     name="vizzy-desktop"
-    address="10.10.1.80"
+    address="10.1.3.1"
     user="vizzy"
     env-loader="/home/vizzy/catkin_ws/src/good_bad_robot/social_cues/env-hooks/env_loader.sh"
     default="true"
