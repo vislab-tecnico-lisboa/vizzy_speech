@@ -32,6 +32,6 @@
     </include>   --> 
     
     <!-- Launch the VizzyArmsRoutines for waving and handshake gestures-->
-    <node machine="vizzy-desktop" name="armroutines" pkg="vizzy_speech_servers" type="vizzyArmsRoutine.sh" />
+    <!-- <node machine="vizzy-desktop" name="armroutines" pkg="vizzy_speech_servers" type="vizzyArmsRoutine.sh" /> -->
 
 </launch>
