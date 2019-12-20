@@ -18,12 +18,15 @@ def main():
 		with open(os.path.join("../sentences_files",sys.argv[1]), 'r') as stream:
 		    try:
 		        sentences = yaml.load(stream)
+			client = actionlib.SimpleActionClient('gcloud_tts', woz_dialog_msgs.msg.SpeechAction)
+			client.wait_for_server()
+			for sentence in sentences:
+				sentence = sentence.split('/speed')
+				print(sentence[0], "speed", float(sentence[1]))
+				speak(client, sentence[0], float(sentence[1]))
 		    except yaml.YAMLError as exc:
 		        print(exc)
-		client = actionlib.SimpleActionClient('gcloud_tts', woz_dialog_msgs.msg.SpeechAction)
-        	client.wait_for_server()
-		for sentence in sentences:
-			speak(client, sentence, 2)
+		
 
 def speak(client, message, speed):
 	goal = woz_dialog_msgs.msg.SpeechGoal(language="pt_PT", voice="pt-PT-Wavenet-D", message=message, speed=speed)
