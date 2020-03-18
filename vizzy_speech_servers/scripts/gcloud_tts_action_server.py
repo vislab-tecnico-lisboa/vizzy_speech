@@ -136,8 +136,8 @@ class TtsActionServer(object):
                 speed_num = 1.0
 
             try:
-
-                synthesis_input = texttospeech.types.SynthesisInput(text=message)
+		message = "<speak>"+message+"</speak>"
+                synthesis_input = texttospeech.types.SynthesisInput(ssml=message)
                 voice = texttospeech.types.VoiceSelectionParams(
                     language_code=language,
                     name=voice)
