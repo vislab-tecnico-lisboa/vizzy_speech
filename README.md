@@ -7,25 +7,44 @@ Speech messages and ros software for Vizzy
 ### Python
 
 ``` Python
-import roslib
-import rospy
-from sound_play.msg import SoundRequest
-from sound_play.libsoundplay import SoundClient
-import woz_dialog_msgs.msg
-import actionlib
-from actionlib_msgs.msg import *
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
+from __future__ import print_function
+import rospy
+
+
+# Brings in the SimpleActionClient
+import actionlib
+
+import woz_dialog_msgs.msg
+
+def test_action():
+
+
+    client = actionlib.SimpleActionClient('gcloud_tts', woz_dialog_msgs.msg.SpeechAction)
+
+    client.wait_for_server()
+
+    goal = woz_dialog_msgs.msg.SpeechGoal(language="pt_PT", voice="pt-PT-Wavenet-D", message="Olá boa tarde", speed=2)
+
+    client.send_goal(goal)
+
+    client.wait_for_result()
+
+    return client.get_result() 
 
 if __name__ == '__main__':
-    # Initialize the node and name it.
-    rospy.init_node('vizzy_speech_hello_world')
     try:
-        speech_client = actionlib.SimpleActionClient('nuance_speech_tts',woz_dialog_msgs.msg.SpeechAction)
-        goal = woz_dialog_msgs.msg.SpeechGoal()
-        goal.voice = 'Joaquim'
-        goal.language = 'pt_PT'
-        goal.message = 'Hello World'
-        speech_client.send_goal(goal)
-except rospy.ROSInterruptException: pass
+        # Initializes a rospy node so that the SimpleActionClient can
+        # publish and subscribe over ROS.
+
+        rospy.init_node('speech_gcloud_client_py')
+        result = test_action()
+        print("Result:", result.success)
+    except rospy.ROSInterruptException:
+        print("program interrupted before completion", file=sys.stderr)
 
 ```
+
+
