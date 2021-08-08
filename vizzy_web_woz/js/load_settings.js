@@ -87,17 +87,17 @@ function setLanguage(lang)
   if(lang == 'pt_PT')
     voice = 'pt-PT-Wavenet-D'
   else if(lang == 'en_US')
-    voice = 'Tom'
+    voice = 'en-US-Wavenet-G'
   else if(lang == 'es_ES')
-    voice = 'Jorge'
+    voice = 'es-ES-Wavenet-C'
   else if(lang == 'fr_FR')
-    voice = 'Thomas'
+    voice = 'fr-FR-Wavenet-C'
   else if(lang == 'nl_NL')
-    voice = 'Xander'
+    voice = 'nl-NL-Wavenet-A'
   else if(lang == 'de_DE')
-    voice = 'Yannick'
+    voice = 'de-DE-Wavenet-C'
   else if(lang == 'it_IT')
-    voice = 'Luca'
+    voice = 'it-IT-Wavenet-B'
 
   localStorage.setItem("language", language);
   localStorage.setItem("voice", voice);
