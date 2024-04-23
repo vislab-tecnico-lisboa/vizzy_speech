@@ -1,7 +1,8 @@
 var expanded = false;
 var alreadySpeaking = false;
 var expandedButtonId = 0;
-var index=0;
+var index=-1;
+var isCorrect = false;
 
 
 
@@ -10,13 +11,31 @@ document.querySelector("#free_icon").classList.add('escondido');
 document.querySelector("#downloading_icon").classList.add('escondido');
 
 
-function getIndex()
+function getIndex(number_lines)
 {
-  if(index == 3)
+
+  if(index >= (number_lines-1))
     index = 0;
   else index++;
   return index;
 
+}
+
+
+/* Function*/ 
+function questionHandler(possible_text)
+{
+  var message = possible_text;
+  var popup = document.getElementById("confirm_button");
+  popup.style.display= "block";
+
+  if (confirm("The person answered right?")) {
+    message = corpus[language].dictionary["answer_right"].valor[Math.floor(Math.random() * 4)];
+  } else {
+    message = possible_text;
+  }
+  popup.style.display= "none";
+  return make_goal(message);
 }
 
 
@@ -28,7 +47,7 @@ function getIndex()
   });
 
     
-    var speechClient = new ROSLIB.ActionClient({
+  var speechClient = new ROSLIB.ActionClient({
     ros : ros,
     serverName : '/gcloud_tts',
     actionName : 'woz_dialog_msgs/SpeechAction'
@@ -66,7 +85,8 @@ function speakYesNo(button)
       voice: 'Joana',
       message: toSay
     }
-  });
+  });    console.log(text_say);
+
 
   goal.on('feedback', function(feedback) {
     console.log('Feedback: ' + feedback.sequence);
@@ -93,20 +113,23 @@ function speakYesNo(button)
 
 }*/
 
-function speak_inner(toSay)
-{
-
-  console.log("Saying: "+ toSay)
+function make_goal(message){
 
   var goal = new ROSLIB.Goal({
     actionClient : speechClient,
     goalMessage : {
       language : language,
       voice: voice,
-      message: toSay,
+      message: message, //first ask the question
       speed: 2
     }
   });
+  return goal;
+}
+
+function goal_send(goal)
+{
+  console.log("O button name "+ goal.goalMessage.language)
 
   goal.on('feedback', function(feedback) {
     console.log('Feedback: ' + feedback.status);
@@ -156,6 +179,93 @@ function speak_inner(toSay)
 }
 
 
+function speak_inner(toSay)
+{
+  
+  
+  if((toSay.name == "Charadas") || (toSay.name == "Piadas") || (toSay.name == "Pedra papel"))
+  {
+
+    var number_lines = toSay.valor.length; //To have more than 4 possible sentences per joint
+
+    text_say = (toSay.valor[getIndex(number_lines)]).split("<break time='7s' />"); // break the string into question and answer
+    console.log(text_say);
+    goal = make_goal(text_say[0]); //Ask first the question
+    goal_send(goal);
+    while(!confirm("The kid understood?")){
+      goal_send(goal);
+    }
+    goal = questionHandler(text_say[1]); //Wait for the user answer
+    goal_send(goal);
+
+  } else if(toSay.name == undefined){ //For custom text 
+
+    goal = make_goal(toSay);
+    console.log(toSay);
+    goal_send(goal);
+
+  } else {
+
+    var number_lines = toSay.valor.length; //To have more than 4 possible sentences per joint
+
+    text_say = toSay.valor[getIndex(number_lines)];
+    goal = make_goal(text_say);
+    console.log(text_say);
+    goal_send(goal);
+  }
+
+  // goal_speak(goal);
+ 
+  // console.log("O button name "+ goal.goalMessage.language)
+
+  // goal.on('feedback', function(feedback) {
+  //   console.log('Feedback: ' + feedback.status);
+    
+  //   if(feedback.status == 2)
+  //     {
+  //       document.querySelector("#speaking_icon").classList.remove('escondido');
+  //       document.querySelector("#free_icon").classList.add('escondido');
+  //       document.querySelector("#downloading_icon").classList.add('escondido');
+  //     }
+  //   else if(feedback.status == 1)
+  //     {
+  //       document.querySelector("#speaking_icon").classList.add('escondido');
+  //       document.querySelector("#free_icon").classList.add('escondido');
+  //       document.querySelector("#downloading_icon").classList.remove('escondido');
+  //     }
+
+  // });
+
+  // goal.on('result', function(result) {
+  //   console.log('Final Result: ' + result.success);
+  //   alreadySpeaking = false;
+
+  //   document.querySelector("#speaking_icon").classList.add('escondido');
+  //   document.querySelector("#free_icon").classList.remove('escondido');
+  //   document.querySelector("#downloading_icon").classList.add('escondido');
+  // });
+
+  // ros.on('connection', function() {
+  //   console.log('Connected to websocket server.');
+  // });
+
+  // ros.on('error', function(error) {
+  //   console.log('Error connecting to websocket server: ', error);
+    
+  //   document.querySelector("#status_failed_icon").classList.remove('escondido');
+  //   document.querySelector("#status_failed_icon").classList.add('visivel');
+  // });
+
+  // ros.on('close', function() {
+  //   console.log('Connection to websocket server closed.');
+  // });
+
+  // goal.send();
+  // alreadySpeaking = true;
+
+}
+
+
 function speak(clickedJoint)
 {
 
@@ -164,10 +274,10 @@ function speak(clickedJoint)
 	
 	//Speak
 	//Select a random sentence
-	//var index = Math.floor(Math.random() * (3 - 0 + 1)) + 0;
 
 	//Get the sentence of that joint button
-	var toSay = corpus[language].dictionary[clickedJoint.id].valor[getIndex()];
+	var toSay = corpus[language].dictionary[clickedJoint.id];
+
 
   speak_inner(toSay)
 
@@ -176,11 +286,11 @@ function speak(clickedJoint)
 	id = expandedButtonId;
 	var query = ":not(#"+id+").group_button"
 	var elementsToUnBlur = document.querySelectorAll(query);
-
 	for(var i=0; i<elementsToUnBlur.length; i++)
 	{
   		var button = elementsToUnBlur[i];
 	  	button.classList.remove('chilled');
+      button.style.removeProperty('display');
 	}
 
 	unexpand_inner(id);
@@ -205,7 +315,8 @@ function expand(clickedButton)
   	  for(var i=0; i<elementsToUnBlur.length; i++)
 	  {
 	  	var button = elementsToUnBlur[i];
-	  	button.classList.remove('chilled')
+	  	button.classList.remove('chilled');
+      button.style.removeProperty('display'); //btn_dentist svg was
 	  }
 
 	  unexpand_inner(id);
@@ -226,7 +337,11 @@ function expand(clickedButton)
   for(var i=0; i<elementsToBlur.length; i++)
   {
   	var button = elementsToBlur[i];
-  	button.classList.add('chilled')
+  	button.classList.add('chilled');
+    if(button.id == "btn_dentist"){
+      console.log(button);
+      button.style.display = "none";
+    }
   }
 
 
@@ -259,10 +374,11 @@ function unexpand_inner(id)
 
 	var query = "."+id+"_joint";
 	var elementsToSee = document.querySelectorAll(query);
-
+  
 	for(var i=0; i < elementsToSee.length; i++)
 	{
 		var joint = elementsToSee[i];
+    
 		joint.style.display = "none";
 	}
 
@@ -275,6 +391,7 @@ function speak_custom()
     return;
 
   var toSay = document.getElementById("text_to_say").value
+  console.log("The text to say is:", toSay.name)
   speak_inner(toSay)
 
   document.getElementById("text_to_say").value = ''

@@ -26,6 +26,8 @@ setListOfButtons(document.getElementsByClassName('btn_gameinfo_joint'))
 setListOfButtons(document.getElementsByClassName('btn_no_joint'))
 setListOfButtons(document.getElementsByClassName('btn_id_joint'))
 setListOfButtons(document.getElementsByClassName('btn_joking_joint'))
+setListOfButtons(document.getElementsByClassName('btn_dentist_joint'))
+
 
 
 var yes_button_text = document.getElementById('yes_text')

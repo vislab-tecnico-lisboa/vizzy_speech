@@ -1,112 +1,117 @@
 body {
-  padding: 0px;
-  background: #f2f2f4;
-}
-
-.full_panel{
-    position: absolute;
-    top: 0%;
-    left: 0%;
-}
-
-.btn_social_joint{
-    display: none;
-}
-
-.btn_id_joint{
-    display: none;
-}
-
-.btn_persuade_joint{
-    display: none;
-}
-
-.btn_userinstr_joint{
-    display: none;
-}
-
-.btn_motivation_joint{
-    display: none;
-}
-
-.escondido{
-    display: none;
-}
-
-.visivel{
-    display: visible;
-}
-
-
-.btn_game_doubts_joint{
-    display: none;
-}
-
-.btn_game_ask_joint{
-    display: none;
-}
-
-.btn_afterpersuade_joint{
-    display: none;
-}
-
-.btn_yes_joint{
-    display: none;
-}
-
-.btn_no_joint{
-    display: none;
-}
-
-.btn_gameinfo_joint{
-    display: none;
-}
-
-.btn_joking_joint{
-    display: none;
-}
-
-.btn_language_joint {
-    display: none;
-}
-
-
-.btn_custom_joint{
-    border-color: #d4e2f4ff;
-    border-collapse: separate;
-    border-style: solid;
-    background: #fafdfeff;
-    padding: 3%; 
-    width: 90%;
-    -moz-border-radius: 15px;
-    border-radius: 20px;
-    display: none;
-    visibility: none;
-}
-
-
-
-.chilled{
-    filter:url(#f1);
-}
-
-input[type=text] {
-  width: 250px;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  font-size: 16px;
-  background-color: white;
-/*  background-image: url('searchicon.png');*/
-  background-position: 10px 10px; 
-  background-repeat: no-repeat;
-  padding: 12px 20px 12px 40px;
-  -webkit-transition: width 0.4s ease-in-out;
-  transition: width 0.4s ease-in-out;
-}
-
-input[type=text]:focus {
-  width: 100%;
-}
-
-#submitbtn{display:none;}
+    padding: 0px;
+    background: #f2f2f4;
+  }
+  
+  .full_panel{
+      position: absolute;
+      top: 0%;
+      left: 0%;
+  }
+  
+  .btn_social_joint{
+      display: none;
+  }
+  
+  .btn_id_joint{
+      display: none;
+  }
+  
+  .btn_persuade_joint{
+      display: none;
+  }
+  
+  .btn_userinstr_joint{
+      display: none;
+  }
+  
+  .btn_motivation_joint{
+      display: none;
+  }
+  
+  .escondido{
+      display: none;
+  }
+  
+  .visivel{
+      display: visible;
+  }
+  
+  
+  .btn_game_doubts_joint{
+      display: none;
+  }
+  
+  .btn_game_ask_joint{
+      display: none;
+  }
+  
+  .btn_afterpersuade_joint{
+      display: none;
+  }
+  
+  .btn_yes_joint{
+      display: none;
+  }
+  
+  .btn_no_joint{
+      display: none;
+  }
+  
+  .btn_gameinfo_joint{
+      display: none;
+  }
+  
+  .btn_joking_joint{
+      display: none;
+  }
+  
+  .btn_language_joint {
+      display: none;
+  }
+  
+  .btn_dentist_joint {
+      display: none;
+  }
+  
+  .btn_custom_joint{
+      border-color: #d4e2f4ff;
+      border-collapse: separate;
+      border-style: solid;
+      background: #fafdfeff;
+      padding: 3%; 
+      width: 90%;
+      -moz-border-radius: 15px;
+      border-radius: 20px;
+      display: none;
+      visibility: none;
+  }
+  
+  
+  
+  .chilled{
+      filter:url(#f1);
+  }
+  
+  input[type=text] {
+    width: 250px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+  /*  background-image: url('searchicon.png');*/
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  input[type=text]:focus {
+    width: 100%;
+  }
+  
+  #submitbtn{display:none;}
+  
+  
