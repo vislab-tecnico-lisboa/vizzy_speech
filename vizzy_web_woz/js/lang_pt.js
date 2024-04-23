@@ -748,3 +748,89 @@ corpus["pt_PT"].dictionary["btn_joking_joint_8"].valor = [" ",
                                             " ",
                                             " ",
                                             " "];
+
+
+//******************************************************** Btn_dentist ************************************************************
+corpus["pt_PT"].dictionary["btn_dentist_joint_1"] = {};                                       
+corpus["pt_PT"].dictionary["btn_dentist_joint_1"].name = "Lavar os dentes"
+corpus["pt_PT"].dictionary["btn_dentist_joint_1"].valor = ["<prosody rate='medium' pitch='-2st'> Costumas lavar os dentes? <break time='2.5s' /> Deixa ver melhor! </prosody> ",
+                                            "<prosody rate='medium' pitch='-2st'> Achas que tenho lavado os meus dentes? </prosody>",
+                                            "<prosody rate='medium' pitch='-2st'> Tens a certeza que tens lavado os dentes? </prosody>",
+                                            "<prosody rate='medium' pitch='-2st'> Tens a certeza que tens lavado os dentes? </prosody>"];
+                                            
+corpus["pt_PT"].dictionary["btn_dentist_joint_2"] = {};                                       
+corpus["pt_PT"].dictionary["btn_dentist_joint_2"].name = "Doces"
+corpus["pt_PT"].dictionary["btn_dentist_joint_2"].valor = ["<prosody rate='slow' pitch ='+2st'> Gostas de comer doces? <break time='1s'/> Eu nunca como doces</prosody>",
+                                            "Costumas comer doces? <break time='2s'/> Eu também não devia, mas são <emphasis level ='strong'> tão bons </emphasis>",
+                                            "<prosody rate='slow' pitch = '+2st'> Eu? <break time='3s'/> Doces? <break time='5s'/> <emphasis level ='strong'> Nunca! </emphasis></prosody>"];
+
+corpus["pt_PT"].dictionary["btn_dentist_joint_3"] = {};                                       
+corpus["pt_PT"].dictionary["btn_dentist_joint_3"].name = "Perguntar cantar"
+corpus["pt_PT"].dictionary["btn_dentist_joint_3"].valor = ["Queres cantar uma música comigo? <break time='2s'/> Estava a pensar ir ao Da Voice com esta música <break time='2s'/> No final avalias a minha prestação",
+                                            "O meu nome artístico é Vizzy o pequeno Robô. Queres cantar comigo?",
+                                            "Devíamos fazer uma banda. <break time='2s'/> Queres ouvir a música que aprendi?",
+                                            "Vamos fazer um káráoke?"];
+
+corpus["pt_PT"].dictionary["btn_dentist_joint_4"] = {};                                       
+corpus["pt_PT"].dictionary["btn_dentist_joint_4"].name = "Cantar"
+corpus["pt_PT"].dictionary["btn_dentist_joint_4"].valor = ["Cantar"];
+                                            
+corpus["pt_PT"].dictionary["btn_dentist_joint_5"] = {};                                       
+corpus["pt_PT"].dictionary["btn_dentist_joint_5"].name = "Piadas dentes"
+corpus["pt_PT"].dictionary["btn_dentist_joint_5"].valor = ["<prosody rate='slow' pitch='+2st'> <emphasis level='strong'> UUUUUUI </emphasis> <break time='1s' /> os teus dentes são mais brilhantes que os meus! <break time='1.5s' /> </prosody> <prosody rate='slow' pitch='-3st'> Também é verdade, não tenho dentes </prosody>",
+                                                        "Por vezes, até os robôs como eu precisam de uma pequena limpeza! <break time='1.5s' /> Escovar os meus circuitos ajuda-os a funcionar sem problemas!"];
+                                            
+corpus["pt_PT"].dictionary["btn_dentist_joint_6"] = {};                                       
+corpus["pt_PT"].dictionary["btn_dentist_joint_6"].name = "Perguntar Dançar"
+corpus["pt_PT"].dictionary["btn_dentist_joint_6"].valor = ["Ouvi dizer que gostavas de dançar! <break time='1.5s' /> Vou mostrar o que aprendi! <break time='1.5s' /> Já não danço há algum tempo! <break time='1.5s' /> Espero que não me salte nenhum fio!",
+                                                          "<emphasis level='strong'> Chegou o momento! </emphasis> <break time='1.5s' /> Sinceramente <break time='0.8s' /> não danço desde a competição de dança do ano passado! <break time='1.5s' /> Vamos ver se estas articulações estão bem oleadas! "];
+                                  
+corpus["pt_PT"].dictionary["btn_dentist_joint_7"] = {};                                       
+corpus["pt_PT"].dictionary["btn_dentist_joint_7"].name = "Dançar"
+corpus["pt_PT"].dictionary["btn_dentist_joint_7"].valor = ["Dançar"];
+
+corpus["pt_PT"].dictionary["btn_dentist_joint_8"] = {};                                       
+corpus["pt_PT"].dictionary["btn_dentist_joint_8"].name = "Charadas"
+corpus["pt_PT"].dictionary["btn_dentist_joint_8"].valor = ["Qual é o tigre mais velhinho do mundo? <break time='7s' /> Estavas lá quase! <break time='1s' /> O tigre de bengala",
+                                                        "Qual é a coisa, qual é ela que varre o céu todos os dias? <break time='7s' /> Boa tentativa! mas não <break time='1.8s' /> É a língua",
+                                                        "Qual é a coisa, qual é ela que quando cai fica amarela? <break time='7s' /> Não é bem isso <break time='1.8s' /> O ovo",
+                                                        "Qual é a coisa qual é ela que cai em pé e corre deitada? <break time='7s' /> Da próxima acertas! <break time='1s'/ > A chuva",
+                                                        "Qual leão não ruge? <break time='7s' /> Boa! consigo perceber a resposta, mas não é bem isso! <break time='1s' /> O Camaleão",
+                                                        "Qual é o céu que não tem estrelas? <break time='7s' /> Boa resposta! Mas <break time='0.6s' /> é o céu da boca",
+                                                        "Sou o pai da fruta! Quem sou? <break time='7s' /> Esta é díficil! <break time='1s'/> Sou a papaia"];
+
+corpus["pt_PT"].dictionary["btn_dentist_joint_9"] = {};                                       
+corpus["pt_PT"].dictionary["btn_dentist_joint_9"].name = "Piadas"
+corpus["pt_PT"].dictionary["btn_dentist_joint_9"].valor = ["Para que servem os óculos vermelhos? <break time='7s' /> Para vérmelhor…",
+                                                        "Por que é que nós robôs nunca sentimos medo? <break time='7s' /> Porque temos nervos de aço!",
+                                                        "Para que serve um trampolim no Pólo Norte? <break time='7s' />  É para o urso pular!",
+                                                        "Porque é que o telemóvel foi ao dentista? <break time='7s' /> Porque tinha problemas com o Bluetooth",
+                                                        "Sabes que dentes é que tens de lavar? <break time='7s' /> Só aqueles que queres manter!",
+                                                        "Como é que as freiras secam a roupa? <break time='7s' /> Não sabes esta? <break time='1s' /> Convento!",
+                                                        "O que é que uma mãe feiticeira diz à filha feiticeira? <break time='7s' />  Não devias ter feitiço!"]; 
+
+corpus["pt_PT"].dictionary["btn_dentist_joint_10"] = {};                                       
+corpus["pt_PT"].dictionary["btn_dentist_joint_10"].name = "Perguntar charadas"
+corpus["pt_PT"].dictionary["btn_dentist_joint_10"].valor = ["Preparei um jogo para nós! <break time='2s' /> Vamos jogar às adivinhas <break time='1s' /> Queres jogar comigo?",
+                                                         "No outro dia aprendi um jogo novo <break time='2s' /> É o jogo das adivinhas <break time='1s' /> Queres jogar comigo?"];
+
+
+corpus["pt_PT"].dictionary["btn_dentist_joint_11"] = {};                                       
+corpus["pt_PT"].dictionary["btn_dentist_joint_11"].name = "Pedra papel"
+corpus["pt_PT"].dictionary["btn_dentist_joint_11"].valor = ["<emphasis level='strong'> Queres jogar à pedra papel ou tesoura? </emphasis> <break time='7s' /> Vou contar até três e aos três, jogamos! <break time='3s' />  <prosody rate='slow' pitch='+2st'>  um <break time='1s' /> dois <break time='1s' /> três  </prosody>"];
+
+/*---------------------------Sentences when right-------------------------------*/                                                        
+corpus["pt_PT"].dictionary["answer_right"] = {};                                       
+corpus["pt_PT"].dictionary["answer_right"].name = "Resposta Certa"
+corpus["pt_PT"].dictionary["answer_right"].valor = ["Pensava que não conhecias esta. <break time='2s' /> Queres ouvir outra?",
+                                                    "És o mestre das adivinhas! <break time='2s' /> Acho que esta agora não vais saber <break time='1s' /> queres tentar?",
+                                                    "És o mestre das adivinhas! <break time='2s' /> Sabes alguma adivinha para eu tentar acertar?",
+                                                    "Fantástico!! <break time='2s' /> Foi uma resposta muito inteligente! <break time='2s' />  Sabes alguma adivinha para eu tentar adivinhar?"];                                                        
+
+corpus["pt_PT"].dictionary["answer_right_paper"] = {};                                       
+corpus["pt_PT"].dictionary["answer_right_paper"].name = "Resposta Certa paper"
+corpus["pt_PT"].dictionary["answer_right_paper"].valor = ["Pensava que não conhecias esta. <break time='2s' /> Queres ouvir outra?"];
+
+corpus["pt_PT"].dictionary["answer_wrong_paper"] = {};                                       
+corpus["pt_PT"].dictionary["answer_wrong_paper"].name = "Resposta Errada paper"
+corpus["pt_PT"].dictionary["answer_wrong_paper"].valor = ["Parece que ganhei!! <break time='2s' /> <prosody rate='slow' pitch='-3st'> Afinal estes olhos também podem ver mal, ganhaste tu! </prosody>"];

@@ -13,20 +13,19 @@ sys.setdefaultencoding('utf8')
 
 import rospkg
 
-import pyaudio
+import pyaudio as pa
 import wave
 import sys
 
 import hashlib
 
-from google.cloud import texttospeech
-
+import google.cloud.texttospeech as texttospeech
 
 
 
 def playback(outname):
     chunk_size = 1024
-    paudio = pyaudio.PyAudio()
+    paudio = pa.PyAudio()
     file_to_play = wave.open(outname, 'rb')
     stream = paudio.open(format = paudio.get_format_from_width(file_to_play.getsampwidth()),
                          channels = file_to_play.getnchannels(),
@@ -76,7 +75,7 @@ class TtsActionServer(object):
         message = goal.message
         speed = goal.speed
 
-        print(goal)
+        print("o goal",goal)
 
         #speed = goal.MEDIUM
 
@@ -84,14 +83,19 @@ class TtsActionServer(object):
         audio_type = 'wav'
 
         print(message)
-
+        # print(button_name)
+        if message == "Cantar":
+            filename = "pt_PT/musica_queen.wav"
+        if message == "Dançar":
+            filename = "pt_PT/dancing_song.wav" 
+        
         if message == "EMPTY":
             self._result.success = True
             self._feedback.status = self._feedback.FREE
             self._as.publish_feedback(self._feedback)
             self._as.set_succeeded(self._result)
             return
-
+        
 
 
         #check if language voice and speed folders exist. if not, create them
@@ -119,7 +123,6 @@ class TtsActionServer(object):
             self._feedback.status = self._feedback.DOWNLOADING
             self._as.publish_feedback(self._feedback)
             message = unicode(message,'utf-8')
-
             rospy.loginfo("Speech goal received.")
 
             if speed == goal.XSLOW:
@@ -136,7 +139,7 @@ class TtsActionServer(object):
                 speed_num = 1.0
 
             try:
-		message = "<speak>"+message+"</speak>"
+                message = "<speak>"+message+"</speak>"
                 synthesis_input = texttospeech.types.SynthesisInput(ssml=message)
                 voice = texttospeech.types.VoiceSelectionParams(
                     language_code=language,
@@ -159,9 +162,7 @@ class TtsActionServer(object):
                 self._result.success = True
                 self._as.set_succeeded(self._result)
                 self._feedback.status = self._feedback.FREE
-                self._as.publish_feedback(self._feedback)
-
-                
+                self._as.publish_feedback(self._feedback)               
 
             except Exception as e:
                 print(e)
